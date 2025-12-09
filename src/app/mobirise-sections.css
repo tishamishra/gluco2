@@ -1,0 +1,303 @@
+@charset "UTF-8";
+
+/* Navbar Section */
+.cid-tB0YZQqaCG {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #f3f4f6;
+}
+
+.cid-tB0YZQqaCG .navbar {
+  min-height: 70px;
+  background-color: #f3f4f6;
+}
+
+.cid-tB0YZQqaCG .navbar-brand {
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.cid-tB0YZQqaCG .navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.cid-tB0YZQqaCG .navbar-nav {
+  align-items: center;
+}
+
+.cid-tB0YZQqaCG .nav-link {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.cid-uwxCXuDQMI {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-image: url("/assets/images/mitolyn-website-.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.cid-uwxCXuDQMI .mbr-fallback-image.disabled {
+  display: none;
+}
+
+.cid-uwxCXuDQMI .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.cid-uwxCXuDQMI .mbr-section-subtitle {
+  color: #ffffff;
+}
+
+/* Header Sections */
+.cid-tB83YwBUMj,
+.cid-tRBZcaLIQn,
+.cid-tB85bPoWQz,
+.cid-tB85KfdIqc,
+.cid-tB85MvgqdZ,
+.cid-tB88MG5MRU,
+.cid-udGvtAJfqr,
+.cid-uhfTGZCgag,
+.cid-uwoihflHRW,
+.cid-tTO3fIHdJP,
+.cid-uppRxLahsB,
+.cid-tB1yuhcVVi,
+.cid-tQZlf1VNMR {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #105bb8;
+}
+
+.cid-tB83YwBUMj h2,
+.cid-tRBZcaLIQn h2,
+.cid-tB85bPoWQz h2,
+.cid-tB85KfdIqc h2,
+.cid-tB85MvgqdZ h2,
+.cid-tB88MG5MRU h2,
+.cid-udGvtAJfqr h2,
+.cid-uhfTGZCgag h2,
+.cid-uwoihflHRW h2,
+.cid-tTO3fIHdJP h3,
+.cid-uppRxLahsB h3,
+.cid-tB1yuhcVVi h3,
+.cid-tQZlf1VNMR h2 {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.cid-tB83YwBUMj .mbr-fallback-image.disabled {
+  display: none;
+}
+
+.cid-tB83YwBUMj .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.cid-tB83YwBUMj .mbr-section-subtitle {
+  color: #ffffff;
+}
+
+/* Content Sections */
+.cid-uppRxLahsB,
+.cid-tTO3fIHdJP,
+.cid-tRBZcaLIQn,
+.cid-tB85bPoWQz,
+.cid-tB85KfdIqc,
+.cid-tB85MvgqdZ,
+.cid-tB88MG5MRU,
+.cid-udGvtAJfqr,
+.cid-uhfTGZCgag,
+.cid-uwoihflHRW {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Team/Gallery Sections */
+.cid-uppRz6LTf7,
+.cid-tRVV2g4uam {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.cid-uppRz6LTf7 .card-wrap,
+.cid-tRVV2g4uam .item-wrapper {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cid-uppRz6LTf7 .card-wrap:hover,
+.cid-tRVV2g4uam .item-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Sections */
+.cid-uppRzWl9Kg,
+.cid-uqaODZAydt,
+.cid-uwoeZNPP5f,
+.cid-tU0NKr6Qyk {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Content Text Sections */
+.cid-udGuLhhhL0,
+.cid-uwp249BoIi,
+.cid-uwoiEcycdT,
+.cid-uwxDbNctQa {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Features Sections */
+.cid-uwxD8c3Fih,
+.cid-uwoOd3EPXa,
+.cid-uwp6M28xWE {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.cid-uwxD8c3Fih .item-wrapper,
+.cid-uwoOd3EPXa .card-wrapper {
+  text-align: center;
+}
+
+/* Content 7 Sections (Reviews) */
+.cid-tTZftgi6HM,
+.cid-tTZftgi6HMHM,
+.cid-tTZftgi6HMSlf {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Content 8 Sections */
+.cid-tTZhZQwh6W {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Team 2 Sections (Bonuses) */
+.cid-uwp5OzT8i9,
+.cid-uwp5LO3gdh {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Header 11 Section (Guarantee) */
+.cid-uhfTEDrzG6 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Header 14 Sections */
+.cid-uwxDfUAqh9 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Content 16 Section (FAQ) */
+.cid-tTNurdHq8c {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Footer Sections */
+.cid-tB7Yu884tX,
+.cid-tRZgrFnffb,
+.cid-tRZg6gyR1I {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Content 4 Sections */
+.cid-uppRzVUqIc,
+.cid-tB1yuhcVVi,
+.cid-tTZn7wVE15 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Info 3 Section */
+.cid-tQZm7B904J {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Header 10 Section */
+.cid-tQZlf1VNMR {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Content 5 Sections */
+.cid-uwp249BoIi,
+.cid-uwoiEcycdT,
+.cid-uwxDbNctQa,
+.cid-udGuLhhhL0 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Image 1 Section */
+.cid-uppXbGMVU6 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Features 17 Section */
+.cid-uwp6M28xWE {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Features 20 Section */
+.cid-uwoOd3EPXa {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Features 23 Section */
+.cid-uwxD8c3Fih {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cid-uwxCXuDQMI {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .cid-tB83YwBUMj,
+  .cid-uppRxLahsB,
+  .cid-tTO3fIHdJP,
+  .cid-tRBZcaLIQn,
+  .cid-tB85bPoWQz,
+  .cid-tB85KfdIqc,
+  .cid-tB85MvgqdZ,
+  .cid-tB88MG5MRU,
+  .cid-udGvtAJfqr,
+  .cid-uhfTGZCgag,
+  .cid-uwoihflHRW {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
