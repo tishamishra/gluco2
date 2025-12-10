@@ -26,7 +26,7 @@ export default function ActNow() {
                 />
                 <br />
                 <h3 className="mbr-text mbr-fonts-style display-2 text-xl md:text-2xl font-semibold text-white mt-4" style={{ fontFamily: 'Arial, sans-serif' }}>
-                  Regular Price: <strike>$127/per bottle</strike>
+                  Regular Price: <s>$127/per bottle</s>
                 </h3>
                 <p className="mbr-text mbr-fonts-style display-2 text-2xl md:text-3xl font-bold text-white mt-2" style={{ fontFamily: 'Arial, sans-serif' }}>
                   <strong>Only for: $39/per bottle</strong>
