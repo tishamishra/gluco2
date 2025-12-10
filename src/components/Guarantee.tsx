@@ -15,15 +15,16 @@ export default function Guarantee() {
         </div>
       </section>
 
-      <section className="header11 cid-uhfTEDrzG6 py-12 bg-white" id="header11-7n">
+      <section className="header11 cid-uhfTEDrzG6 py-12 bg-gradient-to-b from-white to-pink-50" id="header11-7n">
         <div className="container mx-auto px-4">
           <div className="row justify-center items-center flex flex-col md:flex-row gap-8">
-            <div className="col-12 col-md-5 image-wrapper">
-              <div className="rounded-lg overflow-hidden shadow-xl">
+            <div className="col-12 col-md-5 image-wrapper relative">
+              <div className="absolute inset-0 bg-gradient-to-br from-pink-400 to-purple-400 rounded-3xl blur-2xl opacity-30"></div>
+              <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-pink-300 relative z-10 transform hover:scale-105 transition-transform duration-300">
                 <Image 
                   className="w-full h-auto" 
                   src="https://ik.imagekit.io/affin/money-back-guarantee.webp?updatedAt=1765361274891" 
-                  alt="mitolyn-money-back-guarantee" 
+                  alt="mitolyn money back guarantee" 
                   width={600} 
                   height={600}
                   style={{ 
@@ -47,7 +48,7 @@ export default function Guarantee() {
                 </p>
                 <div className="mt-6">
                   <a 
-                    className="btn btn-warning bg-yellow-500 text-black px-6 py-4 sm:px-8 sm:py-5 md:px-12 md:py-6 rounded-md font-bold hover:bg-yellow-600 transition-colors inline-flex items-center text-base sm:text-lg md:text-xl shadow-lg hover:shadow-xl w-full sm:w-auto justify-center" 
+                    className="btn btn-warning bg-gradient-to-r from-pink-500 to-purple-500 text-white px-6 py-4 sm:px-8 sm:py-5 md:px-12 md:py-6 rounded-full font-bold hover:from-pink-600 hover:to-purple-600 transition-all duration-300 inline-flex items-center text-base sm:text-lg md:text-xl shadow-2xl hover:shadow-3xl w-full sm:w-auto justify-center transform hover:scale-105" 
                     href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" 
                     target="_blank"
                     rel="noopener noreferrer"

@@ -114,7 +114,7 @@ export default function Header() {
               </ul>
               <div className="navbar-buttons ml-6">
                 <a 
-                  className="btn btn-danger bg-red-600 text-white px-8 py-4 rounded-md font-bold hover:bg-red-700 transition-all duration-300 inline-flex items-center text-base shadow-lg hover:shadow-xl" 
+                  className="btn btn-danger bg-gradient-to-r from-pink-600 to-purple-600 text-white px-8 py-4 rounded-full font-bold hover:from-pink-700 hover:to-purple-700 transition-all duration-300 inline-flex items-center text-base shadow-2xl hover:shadow-3xl transform hover:scale-105" 
                   href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" 
                   target="_blank"
                   rel="noopener noreferrer"
@@ -176,7 +176,7 @@ export default function Header() {
                 </ul>
                 <div className="navbar-buttons mt-4">
                   <a 
-                    className="btn btn-warning bg-yellow-500 text-black px-6 py-4 rounded-lg font-bold hover:bg-yellow-600 transition-all duration-300 inline-flex items-center justify-center text-base shadow-lg hover:shadow-xl w-full transform hover:scale-105" 
+                    className="btn btn-warning bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-6 py-4 rounded-full font-bold hover:from-cyan-600 hover:to-teal-600 transition-all duration-300 inline-flex items-center justify-center text-base shadow-2xl hover:shadow-3xl w-full transform hover:scale-105" 
                     href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" 
                     target="_blank"
                     rel="noopener noreferrer"

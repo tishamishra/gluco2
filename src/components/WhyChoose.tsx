@@ -35,7 +35,7 @@ export default function WhyChoose() {
           <div className="row justify-center">
             <div className="col-12 col-lg-12">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Why Choose mitolyn?</strong>
+                <strong>Why Choose Mitolyn?</strong>
               </h2>
             </div>
           </div>
@@ -49,12 +49,13 @@ export default function WhyChoose() {
               <div key={index} className="item features-image col-12 col-md-6 col-lg-3 flex flex-col items-center">
                 <div className="mb-6 flex justify-center">
                   <div 
-                    className="rounded-full flex items-center justify-center overflow-hidden shadow-md"
+                    className="rounded-full flex items-center justify-center overflow-hidden shadow-xl"
                     style={{ 
                       width: '160px',
                       height: '160px',
-                      border: '3px solid #e5e7eb',
-                      backgroundColor: '#ffffff'
+                      border: '5px solid #06b6d4',
+                      backgroundColor: '#ecfeff',
+                      boxShadow: '0 10px 30px rgba(6, 182, 212, 0.3)'
                     }}
                   >
                     <Image 

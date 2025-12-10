@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Disclaimer | mitolyn Official',
-  description: 'mitolyn official disclaimer. Important information about the use of our website and products on the official mitolyn store website.',
-  keywords: 'mitolyn disclaimer, mitolyn official disclaimer',
+  title: 'Disclaimer | Mitolyn Official',
+  description: 'Mitolyn official disclaimer. Essential details about using our website and products on the official Mitolyn online store.',
+  keywords: 'Mitolyn disclaimer, Mitolyn legal disclaimer, Mitolyn product disclaimer, Mitolyn website disclaimer',
   alternates: {
-    canonical: 'https://mtolyn.store/disclaimer',
+    canonical: 'https://mtolyn.online/disclaimer',
   },
 };
 

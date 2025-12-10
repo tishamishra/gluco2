@@ -1,38 +1,44 @@
 export default function Benefits() {
   return (
     <>
-      <section className="content4 cid-uwxMGcqGxM py-10 text-center" id="content4-e" style={{ background: '#ffffff' }}>
-        <div className="container mx-auto px-4">
+      <section className="content4 cid-uwxMGcqGxM py-12 text-center relative overflow-hidden" id="content4-e" style={{ background: 'linear-gradient(135deg, #ffffff 0%, #f3e8ff 50%, #fce7f3 100%)' }}>
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute top-20 right-20 w-96 h-96 bg-purple-400 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 left-20 w-80 h-80 bg-pink-400 rounded-full blur-3xl"></div>
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="row justify-center">
             <div className="title col-md-12 col-lg-10">
-              <h3 className="mbr-section-title mbr-fonts-style align-center mb-4 display-2 text-3xl md:text-4xl lg:text-5xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Advantages Of mitolyn Supplement?</strong>
-              </h3>
+              <div className="inline-block bg-gradient-to-r from-purple-100 to-pink-100 rounded-3xl px-8 py-4 border-4 border-purple-300 shadow-xl">
+                <h3 className="mbr-section-title mbr-fonts-style align-center mb-2 display-2 text-3xl md:text-4xl lg:text-5xl font-bold" style={{ fontFamily: 'Arial, sans-serif', background: 'linear-gradient(135deg, #8b5cf6, #ec4899)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+                  <strong>✨ Benefits of Mitolyn Supplement</strong>
+                </h3>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="content8 cid-uwxMAwQ3oN py-12 bg-white" id="content8-d">
+      <section className="content8 cid-uwxMAwQ3oN py-12 bg-gradient-to-b from-white to-purple-50" id="content8-d">
         <div className="container mx-auto px-4">
           <div className="row justify-center">
             <div className="counter-container col-md-12 col-lg-11">
               <h4 className="mbr-section-title mbr-fonts-style mb-4 display-7 text-xl md:text-2xl font-semibold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                Mitolyn is a botanical wellness formula created to encourage harmony, vigor, and sustained power. Mitolyn's research-driven combination functions collaboratively to assist peak metabolic performance and cellular wellness. Through consistent use, you might notice these advantages:
+                Mitolyn is a plant-based wellness supplement designed to promote balance, energy, and sustained vitality. Mitolyn's science-backed formula works synergistically to support optimal metabolic function and cellular health. With regular use, you may experience these benefits:
               </h4>
               <div className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
                 <ul className="space-y-3 list-disc list-inside">
-                  <li><strong>Enhances Metabolic Performance:</strong> mitolyn promotes more efficient calorie transformation into power, enabling you to remain engaged all day.</li>
-                  <li><strong>Focuses on Stubborn Fat Zones:</strong> mitolyn assists initiatives to reduce areas that are usually more challenging to shape through diet or workouts alone.</li>
-                  <li><strong>Increases Daily Vitality:</strong> mitolyn feeds mitochondria to provide steady, invigorating power throughout the day.</li>
-                  <li><strong>Encourages Consistent Weight Advancement:</strong> mitolyn supports progressive, maintainable outcomes without severe restrictions or aggressive approaches.</li>
-                  <li><strong>Assists in Reducing Cravings:</strong> mitolyn promotes stable hunger management, minimizing excessive snacking and stress-related eating.</li>
-                  <li><strong>Improves Cognitive Sharpness:</strong> mitolyn adds to clearer thinking, enhanced concentration, and superior mental function.</li>
-                  <li><strong>Nature-Powered Formula:</strong> mitolyn is crafted with high-quality non-GMO, botanical-sourced components for clean, natural assistance.</li>
-                  <li><strong>Creates Complete Body Balance:</strong> mitolyn assists in preserving harmony between power, emotional state, and general health.</li>
-                  <li><strong>Encourages Tranquility & Emotional Balance:</strong> mitolyn contains adaptogens that help in handling everyday pressure for a more stable, optimistic outlook.</li>
-                  <li><strong>Easy & Straightforward:</strong> mitolyn is simple to incorporate into your everyday schedule—no complicated timetables or procedures needed.</li>
-                  <li><strong>Special Deals Available:</strong> mitolyn provides current package deals and promotional offers while inventory remains.</li>
+                  <li><strong>Boosts Metabolic Efficiency:</strong> Mitolyn enhances more effective calorie conversion into energy, helping you stay active throughout the day.</li>
+                  <li><strong>Targets Problem Fat Areas:</strong> Mitolyn helps efforts to reduce regions that are typically harder to tone through diet or exercise alone.</li>
+                  <li><strong>Elevates Daily Energy:</strong> Mitolyn nourishes mitochondria to deliver consistent, revitalizing energy all day long.</li>
+                  <li><strong>Supports Steady Weight Progress:</strong> Mitolyn promotes gradual, sustainable results without extreme restrictions or harsh methods.</li>
+                  <li><strong>Helps Control Appetite:</strong> Mitolyn supports balanced hunger regulation, reducing overeating and emotional eating patterns.</li>
+                  <li><strong>Enhances Mental Clarity:</strong> Mitolyn contributes to sharper thinking, improved focus, and better cognitive performance.</li>
+                  <li><strong>Natural Plant-Based Formula:</strong> Mitolyn is made with premium non-GMO, plant-derived ingredients for pure, natural support.</li>
+                  <li><strong>Promotes Overall Body Harmony:</strong> Mitolyn helps maintain balance between energy, mood, and overall wellness.</li>
+                  <li><strong>Supports Calm & Emotional Stability:</strong> Mitolyn includes adaptogens that assist in managing daily stress for a more balanced, positive mindset.</li>
+                  <li><strong>Simple & Convenient:</strong> Mitolyn is easy to add to your daily routine—no complex schedules or procedures required.</li>
+                  <li><strong>Exclusive Offers Available:</strong> Mitolyn offers current bundle deals and special promotions while supplies last.</li>
                 </ul>
               </div>
             </div>

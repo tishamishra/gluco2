@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function PricingSection() {
   return (
     <>
-      <section className="content4 cid-uwxNh1cJOb py-10 text-center" id="mitolyn-pricing" style={{ background: '#1098b7' }}>
+      <section className="content4 cid-uwxNh1cJOb py-10 text-center" id="mitolyn-pricing" style={{ background: 'linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #c084fc 100%)' }}>
         <div className="container mx-auto px-4">
           <div className="row justify-center">
             <div className="title col-md-12 col-lg-10">
@@ -22,15 +22,18 @@ export default function PricingSection() {
         <div className="container mx-auto px-4">
           <div className="row justify-center flex flex-col md:flex-row gap-6">
             <div className="col-sm-6 col-lg-4">
-              <div className="card-wrap bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-200">
-                <div className="image-wrap">
+              <div className="card-wrap bg-gradient-to-br from-white to-purple-50 rounded-3xl shadow-2xl overflow-hidden hover:shadow-3xl transition-all duration-300 border-4 border-purple-300 hover:border-pink-500 transform hover:-translate-y-3 hover:scale-105 relative">
+                <div className="absolute top-4 right-4 bg-gradient-to-r from-pink-600 to-purple-600 text-white px-4 py-2 rounded-full font-bold text-sm z-10 shadow-lg">
+                  BEST VALUE
+                </div>
+                <div className="image-wrap p-4">
                   <a href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" target="_blank" rel="noopener noreferrer">
                     <Image 
                       src="https://ik.imagekit.io/affin/mitolyn-1-bottle.webp?updatedAt=1765361274882" 
                       alt="mitolyn-30-day-supply" 
                       width={600} 
                       height={600}
-                      className="w-full h-auto"
+                      className="w-full h-auto transform hover:scale-110 transition-transform duration-300"
                       style={{ 
                         maxWidth: '100%', 
                         width: '100%',
@@ -45,7 +48,7 @@ export default function PricingSection() {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <div className="card-wrap bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-200">
+              <div className="card-wrap bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border-4 border-purple-300 hover:border-purple-500 transform hover:-translate-y-2">
                 <div className="image-wrap">
                   <a href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" target="_blank" rel="noopener noreferrer">
                     <Image 
@@ -68,7 +71,7 @@ export default function PricingSection() {
             </div>
 
             <div className="col-sm-6 col-lg-4">
-              <div className="card-wrap bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-200">
+              <div className="card-wrap bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border-4 border-purple-300 hover:border-purple-500 transform hover:-translate-y-2">
                 <div className="image-wrap">
                   <a href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" target="_blank" rel="noopener noreferrer">
                     <Image 
@@ -96,9 +99,9 @@ export default function PricingSection() {
       <section className="content5 cid-uwyA8IU7fg py-4 bg-white" id="content5-t">
         <div className="container mx-auto px-4">
           <div className="row justify-center">
-            <div className="col-md-12 col-lg-11 JCB" style={{ border: '3px solid #2e2e2e', padding: '15px', borderRadius: '15px', backgroundColor: '#fdb831' }}>
-              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg text-black text-center" style={{ fontFamily: 'Arial, sans-serif', margin: 0 }}>
-                WARNING: Stock levels of mitolyn™ are limited. Accept your reserved bottle above NOW before your discount expires.
+            <div className="col-md-12 col-lg-11 JCB" style={{ border: '4px solid #ec4899', padding: '20px', borderRadius: '20px', backgroundColor: '#fce7f3', boxShadow: '0 10px 25px rgba(236, 72, 153, 0.3)' }}>
+              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg font-bold text-center" style={{ fontFamily: 'Arial, sans-serif', margin: 0, color: '#be185d' }}>
+                ⚠️ WARNING: Stock levels of Mitolyn™ are limited. Accept your reserved bottle above NOW before your discount expires.
               </p>
             </div>
           </div>

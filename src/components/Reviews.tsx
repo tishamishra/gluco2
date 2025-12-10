@@ -3,28 +3,28 @@ import Image from 'next/image';
 export default function Reviews() {
   const reviews = [
     {
-      name: "Patricia M.",
-      location: "Springfield, IL",
+      name: "Jennifer L.",
+      location: "Austin, TX",
       image: "https://ik.imagekit.io/affin/mitolyn-review-1.webp",
       rating: "⭐⭐⭐⭐⭐",
-      weightLoss: "32 lbs",
-      text: "mitolyn has completely changed my life. mitolyn enabled me to drop 32 pounds when other methods failed. mitolyn provided the vitality I required to remain engaged and feel self-assured once more. I previously skipped social events because I wasn't comfortable with my appearance, but now I love looking at my reflection. My self-esteem has soared, and I finally feel like my ideal self."
+      weightLoss: "29 lbs",
+      text: "Mitolyn has transformed my entire lifestyle. Mitolyn helped me lose 29 pounds after countless other approaches didn't work. Mitolyn gave me the energy I needed to stay active and feel confident again. I used to avoid social gatherings because I wasn't happy with how I looked, but now I'm proud of my appearance. My confidence has increased dramatically, and I finally feel like the person I always wanted to be."
     },
     {
-      name: "Robert K.",
-      location: "Tallahassee, FL",
+      name: "David P.",
+      location: "Charlotte, NC",
       image: "https://ik.imagekit.io/affin/mitolyn-review-3.webp",
       rating: "⭐⭐⭐⭐⭐",
-      weightLoss: "27 lbs",
-      text: "mitolyn provided my metabolism the boost it urgently required. mitolyn assisted me in losing 27 pounds of persistent abdominal fat that had been unresponsive to diet and workouts for many years. mitolyn's botanical formula operates uniquely - I feel more agile, my power levels are higher than before, and my clothing fits ideally now. mitolyn really fulfills its commitments."
+      weightLoss: "24 lbs",
+      text: "Mitolyn gave my metabolism the jumpstart it desperately needed. Mitolyn helped me shed 24 pounds of stubborn belly fat that had resisted diet and exercise for years. Mitolyn's natural formula works differently - I feel more mobile, my energy is better than ever, and my clothes fit perfectly now. Mitolyn truly delivers on its promises."
     },
     {
-      name: "Carolyn D.",
-      location: "Portland, OR",
+      name: "Lisa W.",
+      location: "Seattle, WA",
       image: "https://ik.imagekit.io/affin/mitolyn-review-2.webp",
       rating: "⭐⭐⭐⭐⭐",
-      weightLoss: "38 lbs",
-      text: "mitolyn renewed my vitality and assisted me in reconnecting with my loved ones. mitolyn allowed me to lose 38 pounds that I had battled with for a long time. mitolyn's influence extends beyond weight reduction - I can now remain energetic all day and truly appreciate meaningful moments with my children. mitolyn has been an amazing change for my general health and everyday existence."
+      weightLoss: "35 lbs",
+      text: "Mitolyn restored my energy and helped me reconnect with my family. Mitolyn enabled me to drop 35 pounds that I had struggled with for years. Mitolyn's benefits go beyond just weight loss - I can now stay energized throughout the day and really enjoy quality time with my kids. Mitolyn has been a remarkable transformation for my overall health and daily life."
     }
   ];
 
@@ -35,26 +35,27 @@ export default function Reviews() {
           <div className="row justify-center">
             <div className="title col-md-12 col-lg-10">
               <h3 className="mbr-section-title mbr-fonts-style align-center mb-2 display-2 text-3xl md:text-4xl lg:text-5xl font-bold text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>mitolyn Customer Reviews</strong>
+                <strong>Mitolyn Customer Reviews</strong>
               </h3>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="team2 cid-uwxKdDai1K py-6 md:py-8" id="team2-8" style={{ background: '#fafafa' }}>
+      <section className="team2 cid-uwxKdDai1K py-6 md:py-8" id="team2-8" style={{ background: 'linear-gradient(to bottom, #fafafa 0%, #fce7f3 100%)' }}>
         <div className="container mx-auto px-4">
           {reviews.map((review, index) => (
             <div key={index} className="item features-image mb-4 md:mb-6 last:mb-0">
-              <div className="item-wrapper">
+              <div className="item-wrapper bg-white rounded-2xl shadow-xl p-6 border-4 border-pink-200 hover:border-pink-400 transition-all duration-300">
                 <div className="row align-items-center flex flex-col md:flex-row gap-4 md:gap-6">
                   <div className="col-12 col-md-2">
-                    <div className="image-wrapper">
+                    <div className="image-wrapper relative">
+                      <div className="absolute inset-0 bg-gradient-to-br from-pink-400 to-purple-400 rounded-full blur-xl opacity-50"></div>
                       <img 
                         src={review.image} 
-                        alt={`${review.name} - mitolyn review`} 
-                        title="mitolyn"
-                        className="w-full rounded-full object-cover"
+                        alt={`${review.name} - Mitolyn review`} 
+                        title="Mitolyn"
+                        className="w-full rounded-full object-cover relative z-10 border-4 border-pink-300 shadow-xl"
                         style={{ 
                           width: '120px',
                           height: '120px',

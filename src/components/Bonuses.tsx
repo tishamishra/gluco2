@@ -16,19 +16,20 @@ export default function Bonuses() {
         </div>
       </section>
 
-      <section className="team2 cid-uwp5OzT8i9 py-12 bg-white" id="team2-8d">
+      <section className="team2 cid-uwp5OzT8i9 py-12 bg-gradient-to-b from-white to-purple-50" id="team2-8d">
         <div className="container mx-auto px-4" style={{ paddingTop: '2rem', paddingBottom: '2rem', maxWidth: '85%' }}>
-          <div className="item features-image bg-white rounded-lg p-6 md:p-8 shadow-lg border border-gray-200">
+          <div className="item features-image bg-gradient-to-br from-white to-purple-50 rounded-3xl p-6 md:p-8 shadow-2xl border-4 border-purple-300 hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-2">
             <div className="item-wrapper">
               <div className="row align-items-center flex flex-col md:flex-row gap-6">
                 <div className="col-12 col-md-5">
-                  <div className="image-wrapper">
+                  <div className="image-wrapper relative">
+                    <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-pink-400 rounded-3xl blur-2xl opacity-30"></div>
                     <Image 
                       src="https://ik.imagekit.io/affin/mitolyn-bonus.webp?updatedAt=1765361274887" 
                       alt="mitolyn bonus" 
                       width={600} 
                       height={600}
-                      className="w-full h-auto rounded-lg shadow-xl"
+                      className="w-full h-auto rounded-3xl shadow-2xl border-4 border-purple-300 relative z-10 transform hover:scale-105 transition-transform duration-300"
                       style={{ 
                         maxWidth: '100%', 
                         width: '100%',
@@ -58,9 +59,9 @@ export default function Bonuses() {
         </div>
       </section>
 
-      <section className="team2 cid-uwp5LO3gdh py-12 bg-white" id="team2-8c">
+      <section className="team2 cid-uwp5LO3gdh py-12 bg-gradient-to-b from-purple-50 to-white" id="team2-8c">
         <div className="container mx-auto px-4" style={{ paddingTop: '2rem', paddingBottom: '2rem', maxWidth: '85%' }}>
-          <div className="item features-image bg-white rounded-lg p-6 md:p-8 shadow-lg border border-gray-200">
+          <div className="item features-image bg-gradient-to-br from-white to-purple-50 rounded-3xl p-6 md:p-8 shadow-2xl border-4 border-purple-300 hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-2">
             <div className="item-wrapper">
               <div className="row align-items-center flex flex-col md:flex-row gap-6">
                 <div className="col-12 col-md-5">

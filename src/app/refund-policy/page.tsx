@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Refund Policy | mitolyn Official',
-  description: 'mitolyn official refund policy. Learn about our 90-day money-back guarantee and return process on the official mitolyn website.',
-  keywords: 'mitolyn refund, mitolyn purchase refund, mitolyn official refund policy',
+  title: 'Refund Policy | Mitolyn Official',
+  description: 'Mitolyn official refund policy. Discover our 90-day satisfaction guarantee and return procedure on the official Mitolyn site.',
+  keywords: 'Mitolyn refund, Mitolyn return policy, Mitolyn money back guarantee, Mitolyn refund process',
   alternates: {
-    canonical: 'https://mtolyn.store/refund-policy',
+    canonical: 'https://mtolyn.online/refund-policy',
   },
 };
 

@@ -19,7 +19,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/'],
       },
     ],
-    sitemap: 'https://mtolyn.store/sitemap.xml',
+    sitemap: 'https://mtolyn.online/sitemap.xml',
   };
 }
 

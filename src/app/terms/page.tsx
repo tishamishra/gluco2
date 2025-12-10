@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Terms & Conditions | mitolyn Official',
-  description: 'mitolyn official terms and conditions. Read the rules and regulations for using the mitolyn store official website.',
-  keywords: 'mitolyn terms, mitolyn official terms, mitolyn store terms',
+  title: 'Terms & Conditions | Mitolyn Official',
+  description: 'Mitolyn official terms and conditions. Review the guidelines and policies for using the Mitolyn official website.',
+  keywords: 'Mitolyn terms, Mitolyn conditions, Mitolyn website terms, Mitolyn legal terms',
   alternates: {
-    canonical: 'https://mtolyn.store/terms',
+    canonical: 'https://mtolyn.online/terms',
   },
 };
 

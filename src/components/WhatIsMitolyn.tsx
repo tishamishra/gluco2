@@ -3,28 +3,29 @@ import Image from 'next/image';
 export default function WhatIsMitolyn() {
   return (
     <>
-      <section className="content4 cid-uwxKLxAzbL py-10 text-center" id="mitolyn-about" style={{ background: '#8b5cf6' }}>
+      <section className="content4 cid-uwxKLxAzbL py-10 text-center" id="mitolyn-about" style={{ background: 'linear-gradient(135deg, #8b5cf6 0%, #a855f7 50%, #c084fc 100%)' }}>
         <div className="container mx-auto px-4">
           <div className="row justify-center">
             <div className="title col-md-12 col-lg-10">
               <h3 className="mbr-section-title mbr-fonts-style align-center mb-4 display-2 text-3xl md:text-4xl lg:text-5xl font-bold text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Why Choose mitolyn?</strong>
+                <strong>Why Choose Mitolyn?</strong>
               </h3>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="image2 cid-uwxLwAOlez py-12 bg-white" id="image2-b">
+      <section className="image2 cid-uwxLwAOlez py-12 bg-gradient-to-b from-white to-purple-50" id="image2-b">
         <div className="container mx-auto px-4">
           <div className="row align-items-center flex flex-col lg:flex-row gap-8">
             <div className="col-12 col-lg-5">
-              <div className="image-wrapper">
+              <div className="image-wrapper relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-pink-400 rounded-3xl blur-2xl opacity-30 transform rotate-6"></div>
                 <img 
                   src="https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900" 
-                  alt="mitolyn Supplement" 
-                  title="mitolyn"
-                  className="w-full h-auto rounded-lg shadow-xl"
+                  alt="Mitolyn supplement" 
+                  title="Mitolyn"
+                  className="w-full h-auto rounded-3xl shadow-2xl border-4 border-purple-300 relative z-10 transform hover:scale-105 transition-transform duration-300"
                   style={{ 
                     maxWidth: '100%', 
                     width: '100%',
@@ -38,14 +39,14 @@ export default function WhatIsMitolyn() {
             <div className="col-12 col-lg">
               <div className="text-wrapper">
                 <h3 className="mbr-section-title mbr-fonts-style mb-3 display-2 text-2xl md:text-3xl lg:text-4xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                  <strong>What is mitolyn?</strong>
+                  <strong>What is Mitolyn?</strong>
                 </h3>
                 <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                  Mitolyn is a sophisticated dietary supplement crafted to restore and sustain optimal mitochondrial performance—the critical energy hubs within every cell that convert nutrients into functional power. Mitolyn tackles the fundamental source of metabolic decline by enhancing cellular power generation, metabolic responsiveness, and daily vigor.
+                  Mitolyn is an advanced nutritional supplement designed to optimize and maintain peak mitochondrial function—the essential energy centers in each cell responsible for transforming nutrients into usable energy. Mitolyn addresses the root cause of metabolic slowdown by improving cellular energy production, metabolic efficiency, and overall vitality.
                   <br /><br />
-                  Mitolyn delivers a pure, nature-driven composition enriched with botanical extracts and protective antioxidants. Mitolyn contains zero synthetic stimulants or aggressive additives. Mitolyn is produced in FDA-registered and GMP-certified facilities that maintain strict safety and quality protocols, guaranteeing every batch is non-GMO, soy-free, and dairy-free.
+                  Mitolyn features a clean, plant-based formula enhanced with natural botanical compounds and powerful antioxidants. Mitolyn is completely free from artificial stimulants or harsh chemicals. Mitolyn is manufactured in FDA-approved and GMP-verified facilities that follow rigorous safety and quality standards, ensuring each product is non-GMO, soy-free, and dairy-free.
                   <br /><br />
-                  Mitolyn serves as a daily companion for health and vitality restoration. Mitolyn fights everyday exhaustion, encourages effective metabolic function, and aids healthy aging—enabling you to feel energetic, alert, and resilient from dawn to dusk.
+                  Mitolyn works as an everyday wellness partner for restoring health and energy. Mitolyn combats daily fatigue, supports efficient metabolic processes, and promotes healthy aging—helping you maintain energy, focus, and strength throughout your entire day.
                 </p>
               </div>
             </div>

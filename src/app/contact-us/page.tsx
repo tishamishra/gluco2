@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Contact Us | mitolyn Official',
-  description: 'Contact mitolyn official customer support. Get assistance with orders, tracking, refunds, and product inquiries on the official mitolyn store website.',
-  keywords: 'mitolyn contact, mitolyn official contact, mitolyn store support',
+  title: 'Contact Us | Mitolyn Official',
+  description: 'Reach out to Mitolyn customer service. Get help with purchases, shipping, returns, and product questions on the official Mitolyn website.',
+  keywords: 'Mitolyn contact, Mitolyn customer service, Mitolyn support, Mitolyn help',
   alternates: {
-    canonical: 'https://mtolyn.store/contact-us',
+    canonical: 'https://mtolyn.online/contact-us',
   },
 };
 

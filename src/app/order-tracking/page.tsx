@@ -2,11 +2,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Order Tracking | mitolyn Official',
-  description: 'Track your mitolyn order on the official website. Get order assistance and tracking information for your mitolyn purchase.',
-  keywords: 'mitolyn order tracking, mitolyn purchase tracking, mitolyn official order',
+  title: 'Order Tracking | Mitolyn Official',
+  description: 'Monitor your Mitolyn purchase status on our official site. Access order help and shipping details for your Mitolyn order.',
+  keywords: 'Mitolyn order tracking, Mitolyn shipping status, Mitolyn delivery tracking, Mitolyn order status',
   alternates: {
-    canonical: 'https://mtolyn.store/order-tracking',
+    canonical: 'https://mtolyn.online/order-tracking',
   },
 };
 
