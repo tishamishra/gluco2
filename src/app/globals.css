@@ -19,6 +19,7 @@ html {
   scroll-behavior: smooth;
   height: auto;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body {
@@ -32,6 +33,9 @@ body {
   position: relative;
   height: auto;
   min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
 }
 
 p, .text-base, .text-lg, .mbr-text {
@@ -47,6 +51,25 @@ section {
   background-size: cover;
   position: relative;
   word-wrap: break-word;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* Mobile Responsive Fixes */
+img, Image {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Prevent horizontal scroll */
+body, html {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 section .mbr-background-video,
@@ -62,6 +85,25 @@ section .mbr-background-video-preview {
 .container-fluid {
   position: relative;
   word-wrap: break-word;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 button {
@@ -134,39 +176,132 @@ p {
 
 .nav-link {
   color: inherit;
-  transition: color 0.3s ease;
+  transition: all 0.3s ease;
+  display: block;
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 768px) {
+  .nav-link:hover::after {
+    width: 80%;
+  }
 }
 
 .hamburger {
-  width: 24px;
-  height: 18px;
+  width: 30px;
+  height: 24px;
   position: relative;
   cursor: pointer;
+  transform: rotate(0deg);
+  transition: all 0.3s ease-in-out;
 }
 
 .hamburger span {
   display: block;
   position: absolute;
-  height: 2px;
+  height: 3px;
   width: 100%;
   background: currentColor;
+  border-radius: 3px;
   opacity: 1;
   left: 0;
   transform: rotate(0deg);
-  transition: 0.25s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .hamburger span:nth-child(1) {
   top: 0;
 }
 
-.hamburger span:nth-child(2),
-.hamburger span:nth-child(3) {
-  top: 8px;
+.hamburger span:nth-child(2) {
+  top: 10px;
 }
 
-.hamburger span:nth-child(4) {
-  top: 16px;
+.hamburger span:nth-child(3) {
+  top: 20px;
+}
+
+/* Hamburger animation when active (X shape) */
+.hamburger.is-active span:nth-child(1) {
+  top: 10px;
+  transform: rotate(135deg);
+}
+
+.hamburger.is-active span:nth-child(2) {
+  opacity: 0;
+  left: -30px;
+}
+
+.hamburger.is-active span:nth-child(3) {
+  top: 10px;
+  transform: rotate(-135deg);
+}
+
+/* Smooth mobile menu animation */
+.navbar-collapse-mobile {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse-mobile {
+    transform: translateX(0) !important;
+  }
+}
+
+/* Mobile menu item animations */
+@media (max-width: 767px) {
+  .navbar-collapse-mobile.translate-x-0 .nav-item {
+    animation: slideInRight 0.4s ease-out forwards;
+    opacity: 0;
+  }
+  
+  .navbar-collapse-mobile.translate-x-0 .nav-item:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .navbar-collapse-mobile.translate-x-0 .nav-item:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+  
+  .navbar-collapse-mobile.translate-x-0 .nav-item:nth-child(3) {
+    animation-delay: 0.2s;
+  }
+  
+  .navbar-collapse-mobile.translate-x-0 .navbar-buttons {
+    animation: slideInRight 0.4s ease-out forwards;
+    animation-delay: 0.25s;
+    opacity: 0;
+  }
+  
+  /* Reset animations when menu closes */
+  .navbar-collapse-mobile.translate-x-full .nav-item,
+  .navbar-collapse-mobile.translate-x-full .navbar-buttons {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* Button Styles */
@@ -296,5 +431,32 @@ p, div, span, li {
   
   .md\:flex {
     display: flex;
+  }
+}
+
+/* Mobile text wrapping */
+h1, h2, h3, h4, h5, h6, p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Mobile button improvements */
+@media (max-width: 640px) {
+  .btn {
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+  
+  /* Ensure navbar collapse works properly */
+  .navbar-collapse {
+    width: 100%;
+  }
+  
+  /* Prevent text overflow on mobile */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: clamp(1.25rem, 4vw, 2rem);
   }
 }

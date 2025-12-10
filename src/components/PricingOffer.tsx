@@ -31,6 +31,7 @@ export default function PricingOffer() {
                       width={400} 
                       height={400}
                       className="w-full h-auto"
+                      style={{ maxWidth: '100%', height: 'auto' }}
                     />
                   </a>
                 </div>
@@ -47,6 +48,7 @@ export default function PricingOffer() {
                       width={400} 
                       height={400}
                       className="w-full h-auto"
+                      style={{ maxWidth: '100%', height: 'auto' }}
                     />
                   </a>
                 </div>
@@ -63,6 +65,7 @@ export default function PricingOffer() {
                       width={400} 
                       height={400}
                       className="w-full h-auto"
+                      style={{ maxWidth: '100%', height: 'auto' }}
                     />
                   </a>
                 </div>

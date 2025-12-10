@@ -29,6 +29,7 @@ export default function Bonuses() {
                       width={400} 
                       height={400}
                       className="w-full h-auto rounded-lg"
+                      style={{ maxWidth: '100%', height: 'auto' }}
                     />
                   </div>
                 </div>
@@ -64,6 +65,7 @@ export default function Bonuses() {
                       width={400} 
                       height={400}
                       className="w-full h-auto rounded-lg"
+                      style={{ maxWidth: '100%', height: 'auto' }}
                     />
                   </div>
                 </div>

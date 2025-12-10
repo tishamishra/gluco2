@@ -21,11 +21,12 @@ export default function Guarantee() {
             <div className="col-12 col-md-4 image-wrapper">
               <div className="rounded-lg overflow-hidden shadow-md">
                 <Image 
-                  className="w-full" 
+                  className="w-full h-auto" 
                   src="https://ik.imagekit.io/affin/money-back-guarantee.webp?updatedAt=1765361274891" 
                   alt="Mitolyn-money-back-guarantee" 
                   width={400} 
                   height={400}
+                  style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </div>
             </div>
@@ -36,7 +37,7 @@ export default function Guarantee() {
                 </p>
                 <div className="mt-6">
                   <a 
-                    className="btn btn-warning bg-yellow-500 text-black px-12 py-6 rounded-md font-bold hover:bg-yellow-600 transition-colors inline-flex items-center text-lg md:text-xl shadow-lg hover:shadow-xl min-w-[220px] justify-center" 
+                    className="btn btn-warning bg-yellow-500 text-black px-6 py-4 sm:px-8 sm:py-5 md:px-12 md:py-6 rounded-md font-bold hover:bg-yellow-600 transition-colors inline-flex items-center text-base sm:text-lg md:text-xl shadow-lg hover:shadow-xl w-full sm:w-auto justify-center" 
                     href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" 
                     target="_blank"
                     rel="noopener noreferrer"

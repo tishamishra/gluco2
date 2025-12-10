@@ -63,6 +63,7 @@ export default function Reviews() {
                   width={900} 
                   height={600}
                   className="w-full h-auto"
+                  style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </div>
             </div>
@@ -137,6 +138,7 @@ export default function Reviews() {
                   width={900} 
                   height={600}
                   className="w-full h-auto"
+                  style={{ maxWidth: '100%', height: 'auto' }}
                 />
               </div>
             </div>
