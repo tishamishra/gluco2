@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Mitolyn official privacy policy. Learn how we collect, use, and protect your personal information on the official Mitolyn USA website.',
   keywords: 'mitolyn privacy policy, mitolyn official privacy, mitolyn usa privacy',
   alternates: {
-    canonical: 'https://mtolyn-us.com/privacy-policy',
+    canonical: 'https://mtolyn-us.us/privacy-policy',
   },
 };
 

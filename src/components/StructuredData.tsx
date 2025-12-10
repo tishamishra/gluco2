@@ -1,5 +1,5 @@
 export default function StructuredData() {
-  const baseUrl = "https://mtolyn-us.com";
+  const baseUrl = "https://mtolyn-us.us";
 
   // Product Schema
   const productSchema = {

@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Mitolyn official terms and conditions. Read the rules and regulations for using the Mitolyn USA official website.',
   keywords: 'mitolyn terms, mitolyn official terms, mitolyn usa terms',
   alternates: {
-    canonical: 'https://mtolyn-us.com/terms',
+    canonical: 'https://mtolyn-us.us/terms',
   },
 };
 

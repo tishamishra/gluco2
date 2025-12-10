@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Track your Mitolyn order on the official website. Get order assistance and tracking information for your Mitolyn purchase.',
   keywords: 'mitolyn order tracking, mitolyn buy tracking, mitolyn official order',
   alternates: {
-    canonical: 'https://mtolyn-us.com/order-tracking',
+    canonical: 'https://mtolyn-us.us/order-tracking',
   },
 };
 

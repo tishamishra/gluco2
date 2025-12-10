@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mitolyn™ Official | Metabolism Booster & Fat Burner",
     description: "Mitolyn official site - premium metabolism booster. Discover benefits, read reviews, and order Mitolyn for weight loss support and energy boost.",
-    url: "https://mtolyn-us.com/",
+    url: "https://mtolyn-us.us/",
     siteName: "Mitolyn Official",
     type: "website",
     images: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     images: ["https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900"],
   },
   alternates: {
-    canonical: "https://mtolyn-us.com/",
+    canonical: "https://mtolyn-us.us/",
   },
   icons: {
     icon: [

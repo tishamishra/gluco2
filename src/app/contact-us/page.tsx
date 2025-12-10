@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Contact Mitolyn official customer support. Get help with orders, tracking, refunds, and product questions on the official Mitolyn USA website.',
   keywords: 'mitolyn contact, mitolyn official contact, mitolyn usa support',
   alternates: {
-    canonical: 'https://mtolyn-us.com/contact-us',
+    canonical: 'https://mtolyn-us.us/contact-us',
   },
 };
 
