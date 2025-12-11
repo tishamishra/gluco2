@@ -11,6 +11,15 @@ const nextConfig: NextConfig = {
     ],
     domains: ['ik.imagekit.io'],
   },
+  async redirects() {
+    return [
+      {
+        source: '/page',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
