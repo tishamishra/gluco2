@@ -1,48 +1,45 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
-import "./socicon.css";
-import "./mobirise-sections.css";
-import "./competitor-styles.css";
 
 export const metadata: Metadata = {
-  title: "Mitolyn® Official | Natural Fat Burner & Energy Booster",
-  description: "Discover Mitolyn's natural metabolic formula. Read testimonials, learn benefits, and purchase Mitolyn for enhanced energy and weight control.",
-  keywords: "Mitolyn, Mitolyn official, Mitolyn buy, Mitolyn weight control, Mitolyn reviews, Mitolyn official website, Mitolyn online store, Mitolyn energy boost, Mitolyn fat burner",
+  title: "GlycoMute™ Official | Daily Blood Sugar Wellness Formula",
+  description: "Experience natural glucose balance with GlycoMute. Read authentic testimonials, explore proven benefits, and purchase GlycoMute for optimal blood sugar control and sustained vitality.",
+  keywords: "GlycoMute, GlycoMute official, GlycoMute buy, GlycoMute blood sugar, GlycoMute reviews, GlycoMute official website, GlycoMute online store, GlycoMute glucose support, GlycoMute supplement",
   openGraph: {
-    title: "Mitolyn® Official | Natural Fat Burner & Energy Booster",
-    description: "Discover Mitolyn's natural metabolic formula. Read testimonials, learn benefits, and purchase Mitolyn for enhanced energy and weight control.",
-    url: "https://mtolyn.online/",
-    siteName: "Mitolyn Official",
+    title: "GlycoMute™ Official | Daily Blood Sugar Wellness Formula",
+    description: "Experience natural glucose balance with GlycoMute. Read authentic testimonials, explore proven benefits, and purchase GlycoMute for optimal blood sugar control and sustained vitality.",
+    url: "https://glycomute-order.com/",
+    siteName: "GlycoMute Official",
     type: "website",
     images: [
       {
-        url: "https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900",
+        url: "https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png",
         width: 500,
         height: 500,
-        alt: "Mitolyn Official Supplement",
+        alt: "GlycoMute Official Supplement",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mitolyn® Official | Natural Fat Burner & Energy Booster",
-    description: "Discover Mitolyn's natural metabolic formula. Read testimonials and order Mitolyn for enhanced energy and weight control today.",
-    images: ["https://ik.imagekit.io/affin/mitolyn-supplement.webp?updatedAt=1765361274900"],
+    title: "GlycoMute™ Official | Daily Blood Sugar Wellness Formula",
+    description: "Experience natural glucose balance with GlycoMute. Browse customer stories and purchase GlycoMute for optimal blood sugar management and lasting energy.",
+    images: ["https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png"],
   },
   alternates: {
-    canonical: "https://mtolyn.online/",
+    canonical: "https://glycomute-order.com/",
   },
   icons: {
     icon: [
-      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", type: "image/png" },
-      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", sizes: "32x32", type: "image/png" },
-      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", sizes: "16x16", type: "image/png" },
+      { url: "https://ik.imagekit.io/affin/glycomute/glycomute-favicon-logo-485x94.webp?updatedAt=1765391043064", type: "image/png" },
+      { url: "https://ik.imagekit.io/affin/glycomute/glycomute-favicon-logo-485x94.webp?updatedAt=1765391043064", sizes: "32x32", type: "image/png" },
+      { url: "https://ik.imagekit.io/affin/glycomute/glycomute-favicon-logo-485x94.webp?updatedAt=1765391043064", sizes: "16x16", type: "image/png" },
     ],
     apple: [
-      { url: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883", sizes: "180x180", type: "image/png" },
+      { url: "https://ik.imagekit.io/affin/glycomute/glycomute-favicon-logo-485x94.webp?updatedAt=1765391043064", sizes: "180x180", type: "image/png" },
     ],
-    shortcut: "https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883",
+    shortcut: "https://ik.imagekit.io/affin/glycomute/glycomute-favicon-logo-485x94.webp?updatedAt=1765391043064",
   },
   robots: {
     index: true,
@@ -65,19 +62,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/png" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" sizes="32x32" />
-        <link rel="icon" type="image/png" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" sizes="16x16" />
-        <link rel="shortcut icon" type="image/png" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" />
-        <link rel="apple-touch-icon" type="image/png" href="https://ik.imagekit.io/affin/mitolyn-favicon-logo-485x94.webp?updatedAt=1765361274883" sizes="180x180" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" rel="stylesheet" />
+        <link rel="icon" type="image/png" href="https://ik.imagekit.io/affin/glycomute/glycomute-favicon-logo-485x94.webp?updatedAt=1765391043064" sizes="32x32" />
+        <link rel="icon" type="image/png" href="https://ik.imagekit.io/affin/glycomute/glycomute-favicon-logo-485x94.webp?updatedAt=1765391043064" sizes="16x16" />
+        <link rel="shortcut icon" type="image/png" href="https://ik.imagekit.io/affin/glycomute/glycomute-favicon-logo-485x94.webp?updatedAt=1765391043064" />
+        <link rel="apple-touch-icon" type="image/png" href="https://ik.imagekit.io/affin/glycomute/glycomute-favicon-logo-485x94.webp?updatedAt=1765391043064" sizes="180x180" />
         <meta name="msvalidate.01" content="DF238DB2B8BB655EFD6CF96236274D79" />
         <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta name="author" content="Mitolyn Official" />
+        <meta name="author" content="GlycoMute Official" />
         <meta name="language" content="English" />
         <meta name="geo.region" content="US" />
         <meta name="geo.placename" content="United States" />
       </head>
-      <body className="antialiased" style={{ fontFamily: 'Arial, sans-serif' }}>
+      <body className="antialiased" style={{ fontFamily: 'Jost, sans-serif' }}>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
           strategy="afterInteractive"

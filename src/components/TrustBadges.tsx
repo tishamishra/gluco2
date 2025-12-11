@@ -3,23 +3,23 @@ import Image from 'next/image';
 export default function TrustBadges() {
   const badges = [
     {
-      image: "https://ik.imagekit.io/affin/gmp-certified-500x300.webp?updatedAt=1765361274884",
-      alt: "GMP Certified",
+      image: "https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png",
+      alt: "GlycoMute product",
       title: "GMP Certified"
     },
     {
-      image: "https://ik.imagekit.io/affin/fda-approved-500x300.webp?updatedAt=1765361274885",
-      alt: "FDA Approved",
+      image: "https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png",
+      alt: "GlycoMute product",
       title: "FDA Approved"
     },
     {
-      image: "https://ik.imagekit.io/affin/made-in-usa-500x300.webp?updatedAt=1765361274885",
-      alt: "Made in USA",
+      image: "https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png",
+      alt: "GlycoMute product",
       title: "Made in USA"
     },
     {
-      image: "https://ik.imagekit.io/affin/100-natural-500x300.webp?updatedAt=1765361274886",
-      alt: "100% Natural",
+      image: "https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png",
+      alt: "GlycoMute product",
       title: "100% Natural"
     }
   ];

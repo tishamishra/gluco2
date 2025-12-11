@@ -3,28 +3,28 @@ import Image from 'next/image';
 export default function WhyChoose() {
   const features = [
     {
-      image: "https://ik.imagekit.io/affin/gmp-certified-500x300.webp?updatedAt=1765361274884",
-      alt: "mitolyn-gmp-certified",
+      image: "https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png",
+      alt: "glycomute-product",
       title: "GMP Certified",
       description: "Good Manufacturing Practice certified ensuring pharmaceutical grade quality."
     },
     {
-      image: "https://ik.imagekit.io/affin/made-in-usa-500x300.webp?updatedAt=1765361274885",
-      alt: "mitolyn-made-in-usa",
+      image: "https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png",
+      alt: "glycomute-product",
       title: "Made In The USA",
-      description: "Mitolyn is proudly formulated in the United States of America."
+      description: "GlycoMute is proudly formulated in the United States of America."
     },
     {
-      image: "https://ik.imagekit.io/affin/fda-approved-500x300.webp?updatedAt=1765361274885",
-      alt: "mitolyn-approved",
+      image: "https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png",
+      alt: "glycomute-product",
       title: "FDA Approved Facility",
-      description: "Mitolyn is formulated in an FDA-registered facility that adheres to strict FDA regulations."
+      description: "GlycoMute is formulated in an FDA-registered facility that adheres to strict FDA regulations."
     },
     {
-      image: "https://ik.imagekit.io/affin/100-natural-500x300.webp?updatedAt=1765361274886",
-      alt: "mitolyn-natural-product",
+      image: "https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png",
+      alt: "glycomute-product",
       title: "100% All Natural",
-      description: "We are proud to say that Mitolyn is Natural, Non-GMO, and Gluten-Free."
+      description: "We are proud to say that GlycoMute is Natural, Non-GMO, and Gluten-Free."
     }
   ];
 
@@ -34,8 +34,8 @@ export default function WhyChoose() {
         <div className="align-center container mx-auto px-4">
           <div className="row justify-center">
             <div className="col-12 col-lg-12">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Why Choose Mitolyn?</strong>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white" style={{ fontFamily: 'Jost, sans-serif' }}>
+                <strong>Why Choose GlycoMute?</strong>
               </h2>
             </div>
           </div>
@@ -68,10 +68,10 @@ export default function WhyChoose() {
                   </div>
                 </div>
                 <div className="item-content text-center" style={{ maxWidth: '280px' }}>
-                  <h5 className="item-title text-xl font-bold mb-4" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', fontWeight: 'bold' }}>
+                  <h5 className="item-title text-xl font-bold mb-4" style={{ color: '#000000', fontFamily: 'Jost, sans-serif', fontWeight: 'bold' }}>
                     <strong>{feature.title}</strong>
                   </h5>
-                  <p className="text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'center' }}>
+                  <p className="text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Jost, sans-serif', textAlign: 'center' }}>
                     {feature.description}
                   </p>
                 </div>

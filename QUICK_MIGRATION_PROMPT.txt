@@ -50,24 +50,7 @@ Please perform the following comprehensive changes:
    - FAQ: Rewrite all Q&A with different wording, same topics
    - All Policy Pages: Rewrite content uniquely while maintaining legal accuracy
 
-5. DESIGN DIFFERENTIATION:
-   - Hero Background: Change from blue gradient (#1e40af, #3b82f6, #60a5fa) to purple gradient (#7c3aed, #a855f7, #c084fc)
-   - Header/Navbar: Change from purple gradient (#667eea, #764ba2) to cyan/teal gradient (#0ea5e9, #06b6d4, #14b8a6)
-   - Section Backgrounds: 
-     * Reviews section: Change from #1098b7 to #ec4899 (pink)
-     * ScientificDiscovery: Change to #a855f7 (purple)
-     * Guarantee: Change to #ec4899 (pink)
-     * ActNow: Change to #ec4899 (pink)
-     * Bonuses: Change to #8b5cf6 (purple)
-     * WhatIsMitolyn: Change to #8b5cf6 (purple)
-   - Typography: Keep Arial, maintain font sizes/weights
-   - Spacing: Keep existing padding/margins
 
-6. IMAGES & ASSETS:
-   - Update all image URLs to new brand folder/paths (if applicable)
-   - Update all alt text to use [YOUR_NEW_BRAND_NAME] (lowercase in alt text)
-   - Update logo references in Header
-   - Update favicon URL in layout.tsx
 
 7. STRUCTURED DATA:
    - Update baseUrl in StructuredData.tsx to [YOUR_NEW_DOMAIN]

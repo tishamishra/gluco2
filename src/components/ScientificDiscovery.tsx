@@ -23,38 +23,35 @@ export default function ScientificDiscovery() {
         <div className="container-fluid mx-auto px-4">
           <div className="row justify-center">
             <div className="col-md-12 col-lg-10">
-              <h4 className="mbr-section-subtitle mbr-fonts-style mb-4 display-2 text-2xl md:text-3xl lg:text-4xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Key Benefits of Mitolyn:</strong>
+              <h4 className="mbr-section-subtitle mbr-fonts-style mb-4 display-2 text-2xl md:text-3xl lg:text-4xl font-bold text-black" style={{ fontFamily: 'Jost, sans-serif' }}>
+                <strong>Key Benefits of GlycoMute:</strong>
               </h4>
-              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                Mitolyn delivers complete, daily assistance for those looking for natural vitality, metabolic harmony, and maintained vigor. Mitolyn's research-driven combination targets various elements of cellular wellness and metabolic performance. Here are Mitolyn's most significant benefits:
+              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Jost, sans-serif', textAlign: 'left' }}>
+                GlycoMute provides comprehensive daily support for individuals seeking natural blood sugar balance, steady energy, and metabolic wellness. GlycoMute's science-backed formula targets key aspects of glucose metabolism and cellular health. Here are GlycoMute's primary advantages:
                 <br /><br />
-                <strong>➤ Enhances Power Generation<br /></strong>
-                Mitolyn improves mitochondrial productivity to assist your system in creating steady, continuous power—keeping you driven, alert, and engaged all day.
+                <strong>➤ Supports Healthy Blood Sugar Levels<br /></strong>
+                GlycoMute helps maintain stable glucose readings by supporting smoother sugar absorption and healthier metabolic function throughout the day.
                 <br /><br />
-                <strong>➤ Encourages Metabolic Harmony<br /></strong>
-                Mitolyn promotes productive processing of fats and nutrients, supporting a fluid, harmonious metabolism and steady weight control.
+                <strong>➤ Promotes Balanced Energy<br /></strong>
+                GlycoMute encourages consistent daily energy by helping the body convert glucose into steady fuel, reducing mid-day crashes and fatigue.
                 <br /><br />
-                <strong>➤ Fortifies Protective Defense<br /></strong>
-                Mitolyn is abundant in defensive antioxidants, which assist in eliminating free radicals, minimizing common inflammation, and preserving healthy, strong cells over time.
+                <strong>➤ Reduces Sugar Cravings<br /></strong>
+                GlycoMute's natural blend helps control sugar cravings, making it easier to maintain healthy eating habits and avoid unnecessary snacking.
                 <br /><br />
-                <strong>➤ Assists Stress Adaptation<br /></strong>
-                Mitolyn includes adaptogenic plants like Rhodiola Rosea and Schisandra, which help in adjusting to pressure, combating exhaustion, and enhancing physical and mental stamina.
+                <strong>➤ Enhances Mental Clarity<br /></strong>
+                GlycoMute supports sharper thinking, improved focus, and reduced brain fog by promoting balanced blood sugar levels throughout the day.
                 <br /><br />
-                <strong>➤ Improves Mental Performance<br /></strong>
-                Mitolyn's natural components encourage clearer cognition, enhanced recall, and better concentration—helping you remain sharp and efficient all day.
+                <strong>➤ Supports Metabolic Health<br /></strong>
+                GlycoMute assists efficient glucose processing, helping your body maintain a healthier metabolic rhythm and better overall wellness.
                 <br /><br />
-                <strong>➤ Supports Healthy Aging<br /></strong>
-                Mitolyn assists in offsetting age-related power declines by supporting mitochondrial efficiency, encouraging lasting vigor for a more vibrant feeling.
+                <strong>➤ Natural Weight Management Support<br /></strong>
+                GlycoMute helps support healthy weight control over time by reducing cravings and promoting more balanced energy levels.
                 <br /><br />
-                <strong>➤ Aids Digestion & Nutrient Absorption<br /></strong>
-                Mitolyn contains components like Amla that help comfortable digestion and productive nutrient uptake—assisting your system in maximizing every meal.
+                <strong>➤ Pure, Plant-Based Formula<br /></strong>
+                GlycoMute is crafted with non-GMO, natural plant extracts and free from synthetic additives—ideal for safe, long-term daily use.
                 <br /><br />
-                <strong>➤ Pure, Botanical Formula<br /></strong>
-                Mitolyn is designed with non-GMO, plant-based components and devoid of synthetic additives—perfect for secure, extended daily consumption.
-                <br /><br />
-                <strong>➤ A Reliable Route to Health<br /></strong>
-                Mitolyn is obtainable directly from the Mitolyn Official Store, providing genuine formulations, special discounts, quick delivery, and reliable customer service.
+                <strong>➤ Trusted Source<br /></strong>
+                GlycoMute is available directly from the GlycoMute Official Store, offering authentic products, special pricing, fast shipping, and reliable customer support.
               </p>
             </div>
           </div>

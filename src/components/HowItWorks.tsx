@@ -1,36 +1,122 @@
 export default function HowItWorks() {
   return (
-    <>
-      <section className="content5 cid-uwxLB85buw py-12 bg-gradient-to-b from-white via-purple-50 to-white" id="content5-c">
-        <div className="container-fluid mx-auto px-4">
-          <div className="row justify-center">
-            <div className="col-md-12 col-lg-10">
-              <h4 className="mbr-section-subtitle mbr-fonts-style mb-4 display-2 text-2xl md:text-3xl lg:text-4xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>How Does Mitolyn Work?</strong>
-              </h4>
-              <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                Mitolyn works by revitalizing the way your mitochondria—the tiny energy factories inside your cells—produce and manage power. Mitolyn optimizes mitochondrial performance, enabling your entire body to enjoy increased energy, better mental focus, and more stable power throughout the day. Here's how mitolyn helps maximize your body's energy systems:
-                <br /><br />
-                <strong>➤ Boosting Energy Molecule (ATP) Production<br /></strong>
-                Mitolyn helps mitochondria generate adenosine triphosphate (ATP), the essential energy currency that fuels all bodily processes. Mitolyn's advanced nutrient combination promotes efficient, sustained ATP generation—helping you stay active and focused all day long.
-                <br /><br />
-                <strong>➤ Transforming Stored Fat into Energy<br /></strong>
-                Mitolyn enhances your body's ability to convert stored fat into usable energy more effectively. Mitolyn supports this metabolic transformation, promoting natural weight management and smoother energy flow without relying on stimulants.
-                <br /><br />
-                <strong>➤ Shielding Cells from Oxidative Stress<br /></strong>
-                Mitolyn is rich in antioxidant compounds including Maqui Berry and Astaxanthin, which help neutralize free radicals that can slow metabolism and accelerate aging. Mitolyn protects cellular integrity and promotes long-term health.
-                <br /><br />
-                <strong>➤ Supporting Stress Response Mechanisms<br /></strong>
-                Mitolyn contains adaptogenic herbs like Rhodiola Rosea and Schisandra, which help your body adapt to daily physical and mental pressures. Mitolyn's natural ingredients promote resilience, mental clarity, and emotional balance during stressful periods.
-                <br /><br />
-                <strong>➤ Promoting Healthy Aging Processes<br /></strong>
-                Mitolyn helps offset age-related energy decline by preserving mitochondrial function. Mitolyn supports active metabolism, enhanced endurance, and overall wellness—so you feel strong and balanced as you age gracefully.
-              </p>
+    <section className="bg-gray-50 py-16">
+      <div className="container mx-auto px-4">
+        <div className="section-title" style={{ marginBottom: '2rem', textAlign: 'center' }}>
+          <h2 style={{
+            fontWeight: 900,
+            letterSpacing: '-0.02em',
+            textTransform: 'uppercase',
+            textAlign: 'center',
+            backgroundColor: '#dc2626',
+            color: '#ffffff',
+            padding: '1.5rem 2rem',
+            borderRadius: '8px',
+            display: 'inline-block',
+            width: '100%',
+            maxWidth: '100%'
+          }}>🔬 How Does GlycoMute Work?</h2>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          {/* Image Column */}
+          <div className="order-2 md:order-1 flex items-center justify-center">
+            <div className="image-wrapper w-full">
+              <img 
+                src="https://ik.imagekit.io/affin/glycomute/unnamed20-202025-11-30t172340.994-535x626.webp?updatedAt=1765391042842" 
+                alt="How GlycoMute works - Blood sugar support mechanism" 
+                className="w-full mx-auto"
+                style={{
+                  width: '100%',
+                  maxWidth: '100%',
+                  height: 'auto',
+                  objectFit: 'contain',
+                  display: 'block',
+                  margin: '0 auto'
+                }}
+              />
+            </div>
+          </div>
+
+          {/* Text Column */}
+          <div className="order-1 md:order-2">
+            <p className="text-gray-700 leading-relaxed mb-6" style={{
+              fontWeight: 500,
+              letterSpacing: '0.01em',
+              fontFamily: 'Jost, sans-serif',
+              lineHeight: '1.6',
+              fontSize: 'clamp(1rem, 2vw, 1.125rem)'
+            }}>
+              <strong className="text-lg" style={{ fontWeight: 700 }}>GlycoMute</strong> works with your body to keep blood sugar in a steady, healthy range. It’s not a swap for good food and movement—it’s a daily helper that makes those habits pay off.
+            </p>
+
+            <div className="space-y-6">
+              <div>
+                <h4 className="text-xl font-extrabold mb-3" style={{
+                  color: '#dc2626',
+                  fontWeight: 800,
+                  letterSpacing: '-0.01em',
+                }}>1. Optimizing Glucose Processing: Enhances Insulin Responsiveness</h4>
+                <p className="text-gray-700 leading-relaxed" style={{
+                  fontWeight: 500,
+                  letterSpacing: '0.01em',
+                  fontFamily: 'Jost, sans-serif',
+                  lineHeight: '1.6',
+                  fontSize: 'clamp(1rem, 2vw, 1.125rem)'
+                }}>
+                  Ingredients like Chromium and Berberine can help your cells respond better to insulin, the signal that moves sugar into cells for energy. Better response means smoother glucose use.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-xl font-extrabold mb-3" style={{
+                  color: '#dc2626',
+                  fontWeight: 800,
+                  letterSpacing: '-0.01em',
+                }}>2. Facilitates Carbohydrate Breakdown</h4>
+                <p className="text-gray-700 leading-relaxed" style={{
+                  fontWeight: 500,
+                  letterSpacing: '0.01em',
+                  fontFamily: 'Jost, sans-serif',
+                  lineHeight: '1.6',
+                  fontSize: 'clamp(1rem, 2vw, 1.125rem)'
+                }}>
+                  Cinnamon Bark and other plant compounds can slow how quickly carbs turn into glucose, helping avoid sharp spikes after meals.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-xl font-extrabold mb-3" style={{
+                  color: '#dc2626',
+                  fontWeight: 800,
+                  letterSpacing: '-0.01em',
+                }}>3. Cellular Defense Through Antioxidants</h4>
+                <p className="text-gray-700 leading-relaxed" style={{
+                  fontWeight: 500,
+                  letterSpacing: '0.01em',
+                  fontFamily: 'Jost, sans-serif',
+                  lineHeight: '1.6',
+                  fontSize: 'clamp(1rem, 2vw, 1.125rem)'
+                }}>
+                  The formula also carries antioxidants that help protect the cells that handle sugar, keeping them healthier so they can do their job.
+                </p>
+              </div>
+
+              <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+                <p className="text-gray-700 leading-relaxed" style={{
+                  fontWeight: 500,
+                  letterSpacing: '0.01em',
+                  fontFamily: 'Jost, sans-serif',
+                  lineHeight: '1.6',
+                  fontSize: 'clamp(1rem, 2vw, 1.125rem)'
+                }}>
+                  In plain terms, GlycoMute gives your body nutrients that help use sugar from food without big swings. That supports steady blood sugar and steadier energy day after day.
+                </p>
+              </div>
+            </div>
             </div>
           </div>
         </div>
       </section>
-    </>
   );
 }
-

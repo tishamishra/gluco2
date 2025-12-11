@@ -19,7 +19,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/'],
       },
     ],
-    sitemap: 'https://mtolyn.online/sitemap.xml',
+    sitemap: 'https://glycomute-order.com/sitemap.xml',
   };
 }
 

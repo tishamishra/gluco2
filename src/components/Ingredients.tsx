@@ -1,142 +1,112 @@
-import Image from 'next/image';
-
 export default function Ingredients() {
   const ingredients = [
     {
-      name: "Maqui Berry",
-      description: "Mitolyn contains Maqui Berry, a vibrant superfruit rich in anthocyanins and antioxidant compounds that help shield cells from oxidative stress, support mitochondrial health, decrease inflammation, and promote natural energy and vitality."
+      name: "Banaba (leaf extract)",
+      description: "Banaba assists your system in utilizing glucose more uniformly following meals. It promotes gentler sugar breakdown, potentially minimizing abrupt elevations and drops. This supports sustained vitality and enhanced daily stability."
     },
     {
-      name: "Rhodiola Rosea",
-      description: "Mitolyn features Rhodiola Rosea, a powerful adaptogenic herb known to enhance stress tolerance and reduce fatigue. Mitolyn's Rhodiola ingredient supports mental clarity, balanced mood, and sustained endurance for daily productivity and well-being."
+      name: "Guggul Gum Resin",
+      description: "Guggul enhances proper insulin function, enabling your body to process glucose with greater effectiveness. Through encouraging more stable glucose concentrations, it supports metabolic equilibrium and more consistent energy patterns daily."
     },
     {
-      name: "Haematococcus (Astaxanthin)",
-      description: "Mitolyn includes Haematococcus, recognized as one of nature's strongest antioxidant compounds. Mitolyn's astaxanthin helps protect mitochondria from oxidative damage, promotes healthy skin, and improves efficient cellular energy production."
+      name: "Bitter Melon",
+      description: "Bitter melon includes natural substances that function comparably to insulin, assisting the system in handling elevated glucose concentrations post-meal. It facilitates standard glucose breakdown, particularly following high-carbohydrate consumption, for steadier measurements."
     },
     {
-      name: "Amla (Indian Gooseberry)",
-      description: "Mitolyn incorporates Amla, naturally rich in vitamin C and polyphenols. Mitolyn's Amla ingredient strengthens immune function, promotes healthy digestion, and enhances nutrient absorption—crucial for consistent mitochondrial performance."
+      name: "Gymnema",
+      description: "Gymnema is recognized for diminishing sugar cravings by decreasing sweet taste sensitivity. This curbs appetite impulses, encourages healthier dietary patterns, and simplifies avoiding excessive snacking."
     },
     {
-      name: "Theobroma Cacao",
-      description: "Mitolyn includes Theobroma Cacao, sourced from pure cocoa. Mitolyn's cacao contains natural compounds that may improve mood, support heart health, and provide gentle, sustained energy without caffeine crashes or overstimulation."
+      name: "Juniper Berries",
+      description: "Juniper berries promote proper glucose utilization and general metabolic performance. They maintain more uniform energy levels throughout the day by supporting your body's innate sugar regulation mechanisms."
     },
     {
-      name: "Schisandra",
-      description: "Mitolyn contains Schisandra, a traditional adaptogen used for centuries to enhance stamina, support liver function, and improve mental focus. Mitolyn's Schisandra helps modulate stress response and maintain calm, steady energy throughout the day."
+      name: "White Mulberry (leaf extract)",
+      description: "White mulberry decelerates sugar absorption rates in the digestive tract following meals. This encourages more stable glucose concentrations, reducing abrupt energy declines and fostering more even daily vitality."
     }
   ];
 
   return (
-    <>
-      <section className="header3 cid-uwxPKPzuhp py-10 text-center" id="mitolyn-ingredients" style={{ background: 'linear-gradient(135deg, #fce7f3 0%, #f3e8ff 100%)' }}>
-        <div className="align-center container mx-auto px-4">
-          <div className="row justify-center">
-            <div className="col-12 col-lg-12">
-              <h3 className="mbr-section-title mbr-fonts-style align-center mb-4 display-2 text-3xl md:text-4xl lg:text-5xl font-bold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                <strong>Mitolyn Ingredients</strong>
-              </h3>
-            </div>
+    <section className="bg-white py-16" id="ingredients">
+      <div className="container mx-auto px-4">
+        <div className="section-title" style={{ marginBottom: '2rem', textAlign: 'center' }}>
+          <h2 style={{
+            fontWeight: 900,
+            letterSpacing: '-0.02em',
+            textTransform: 'uppercase',
+            textAlign: 'center',
+            backgroundColor: '#dc2626',
+            color: '#ffffff',
+            padding: '1.5rem 2rem',
+            borderRadius: '8px',
+            display: 'inline-block',
+            width: '100%',
+            maxWidth: '100%'
+          }}>Inside Every GlycoMute You'll Find… Ingredients (scientifically backed)</h2>
+        </div>
+
+        <div className="max-w-4xl mx-auto mb-8">
+          <div className="card bg-white">
+            <p className="text-gray-700 leading-relaxed text-center">
+              <strong>GlycoMute</strong> uses a careful mix of plant extracts and minerals to help keep blood sugar steady, energy even, and your day on track. Here’s how each ingredient can help:
+            </p>
           </div>
         </div>
-      </section>
 
-      <section className="content9 cid-uwDUNYnBmN py-12 bg-gradient-to-b from-white to-pink-50" id="content9-i">
-        <div className="container mx-auto px-4">
-          <div className="row justify-center">
-            <div className="col-md-12 col-lg-10">
-              <h4 className="mbr-section-title mbr-fonts-style mb-4 display-7 text-xl md:text-2xl font-semibold text-black" style={{ fontFamily: 'Arial, sans-serif' }}>
-                Mitolyn features a carefully curated combination of natural botanicals and nutrients—each chosen for its ability to enhance mitochondrial function, energy balance, and whole-body vitality. Mitolyn's formula is based on scientific research demonstrating each ingredient's unique contribution to metabolic health. Discover the key components below:
-              </h4>
-              <div className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed ingredients-content" style={{ color: '#000000', fontFamily: 'Arial, sans-serif' }}>
-                <ol className="space-y-4 ingredients-list" style={{ listStyle: 'none', paddingLeft: '0', counterReset: 'none' }}>
-                  {ingredients.map((ingredient, index) => (
-                    <li 
-                      key={index} 
-                      className="ingredient-item"
-                      style={{ 
-                        marginBottom: '1.5rem', 
-                        listStyle: 'none', 
-                        paddingLeft: '3.5rem', 
-                        position: 'relative', 
-                        minHeight: '40px'
-                      }}
-                    >
-                      <span style={{
-                        position: 'absolute',
-                        left: '0',
-                        top: '0',
-                        color: '#ffffff',
-                        background: '#e6502b',
-                        width: '40px',
-                        height: '40px',
-                        borderRadius: '50%',
-                        display: 'inline-flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        fontWeight: 'bold',
-                        fontSize: '1.1rem',
-                        flexShrink: 0,
-                        zIndex: 1
-                      }}>
-                        {index + 1}
-                      </span>
-                      <strong>{ingredient.name}:</strong> {ingredient.description}
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="features17 cid-uwp6M28xWE py-12 bg-white" id="features17-8e">
-        <div className="container mx-auto px-4">
-          <div className="content-wrapper">
-            <div className="row align-items-center flex flex-col lg:flex-row gap-10">
-              <div className="col-12 col-lg-5">
-                <div className="image-wrapper rounded-3xl overflow-hidden shadow-2xl border-4 border-purple-300 bg-gradient-to-br from-white to-purple-50 p-4">
-                  <img 
-                    src="https://ik.imagekit.io/affin/mitolyn-buy-480x451.webp?updatedAt=1765361274874" 
-                    alt="Mitolyn order" 
-                    className="w-full h-auto object-contain mx-auto"
-                    style={{ 
-                      maxWidth: '100%', 
-                      width: '100%',
-                      height: 'auto',
-                      minHeight: '400px',
-                      objectFit: 'contain'
-                    }}
-                  />
-                </div>
-              </div>
-              <div className="col-12 col-lg flex-1">
-                <div className="text-wrapper bg-gradient-to-br from-white to-pink-50 rounded-3xl shadow-2xl border-4 border-pink-300 p-8 md:p-10">
-                  <h5 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: '#0f172a', fontFamily: 'Arial, sans-serif', textAlign: 'left', lineHeight: '1.35' }}>
-                    Mitolyn supplies your system with the resources to function at maximum potential. Mitolyn assists effective fat utilization, improved self-assurance, and maintained power levels. Mitolyn's complete strategy helps you reach peak metabolic wellness and vigor.
-                  </h5>
-                  <p className="text-xl md:text-2xl font-bold mb-6 text-red-600" style={{ fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                    Only for: $39/per bottle
-                  </p>
-                  <div className="mt-4">
-                    <a 
-                      className="btn btn-warning bg-gradient-to-r from-purple-600 to-pink-600 text-white px-4 py-4 sm:px-8 sm:py-5 md:px-14 md:py-6 rounded-full font-bold text-sm sm:text-base md:text-lg lg:text-xl hover:from-purple-700 hover:to-pink-700 transition-all duration-300 inline-flex items-center shadow-2xl hover:shadow-3xl w-full sm:w-auto justify-center transform hover:scale-105" 
-                      href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Start Your Journey to Effortless Weight Loss!
-                    </a>
+        <div className="max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6">
+            {ingredients.map((ingredient, index) => (
+              <div key={index} className="card bg-white">
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center" style={{
+                    background: 'linear-gradient(135deg, #dc2626 0%, #b91c1c 100%)',
+                    boxShadow: '0 2px 8px rgba(220, 38, 38, 0.3)'
+                  }}>
+                    <span className="text-xl font-bold" style={{ color: '#ffffff' }}>{index + 1}</span>
+                  </div>
+                  <div className="flex-1">
+                    <h4 className="text-lg font-extrabold mb-2" style={{
+                      color: '#111827',
+                      fontWeight: 800,
+                      letterSpacing: '-0.01em',
+                    }}>{ingredient.name}</h4>
+                    <p className="text-gray-700 leading-relaxed" style={{
+                      fontWeight: 500,
+                      letterSpacing: '0.01em'
+                    }}>{ingredient.description}</p>
                   </div>
                 </div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
-      </section>
-    </>
+
+        <div className="max-w-4xl mx-auto mt-8">
+          <div className="card bg-white">
+            <p className="text-gray-700 leading-relaxed text-center">
+              <strong>GlycoMute</strong> uses well-studied plants and minerals to support healthy glucose balance and steady energy. Together, they help your body manage sugar smoothly so you can feel clear and consistent all day.
+            </p>
+          </div>
+        </div>
+
+        <div className="max-w-4xl mx-auto mt-8">
+          <div className="image-wrapper" style={{ textAlign: 'center' }}>
+            <img 
+              src="https://ik.imagekit.io/affin/glycomute/unnamed20-202025-11-30t170757.524-857x614.webp?updatedAt=1765391043105" 
+              alt="GlycoMute ingredients information" 
+              className="mx-auto"
+              style={{
+                width: '600px',
+                maxWidth: '100%',
+                height: 'auto',
+                objectFit: 'contain',
+                display: 'block',
+                margin: '0 auto'
+              }}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
-

@@ -1,38 +1,72 @@
 export default function FinalCTA() {
   return (
-    <>
-      <section className="header14 cid-uwxDfUAqh9 py-12" id="header14-8n" style={{ backgroundColor: '#ffffff' }}>
-        <div className="container mx-auto px-4">
-          <div className="row justify-center">
-            <div className="card col-12 col-md-12 col-lg-10">
-              <div className="card-wrapper bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl shadow-2xl p-8 md:p-10 border-4 border-purple-300">
-                <div className="card-box align-center">
-                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                    <strong>Ready to Finally See Real Results?</strong>
-                  </h2>
-                  <p className="text-base md:text-lg lg:text-xl leading-relaxed mb-6" style={{ color: '#000000', fontFamily: 'Arial, sans-serif', textAlign: 'left' }}>
-                    Mitolyn delivers a research-supported method to metabolic enhancement and lasting weight control. Mitolyn tackles the fundamental source of metabolic decline by assisting mitochondrial performance, allowing your system to function at maximum productivity. <br /><br />
-                    Mitolyn supplies your system with the crucial nutrients required to boost power generation, enhance fat utilization, and renew peak cellular performance. Mitolyn's complete formula functions collaboratively to produce outcomes that go beyond basic weight reduction, supporting general vigor and wellness. <br /><br />
-                    Mitolyn is supported by a 90-day money-back promise, guaranteeing your total satisfaction. Mitolyn's dedication to your achievement means you can try the advantages without risk. <br /><br />
-                    Mitolyn is obtainable now at special pricing for a restricted period. Take the initial step toward peak metabolic wellness and improved vitality today.
-                  </p>
-                  <div className="mt-6">
-                    <a 
-                      className="btn btn-warning bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 text-white px-6 py-4 sm:px-10 sm:py-6 md:px-14 md:py-7 rounded-full font-bold text-base sm:text-lg md:text-xl hover:from-purple-700 hover:via-pink-700 hover:to-purple-700 transition-all duration-300 inline-flex items-center shadow-2xl hover:shadow-3xl w-full sm:w-auto justify-center transform hover:scale-105" 
-                      href="https://b9c6ckcm0x6mdy38yird8e5uex.hop.clickbank.net/?&traffic_source=bing" 
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Get Your Mitolyn Now!
-                    </a>
-                  </div>
-                </div>
+    <section className="bg-[#dc2626] py-16">
+      <div className="container mx-auto px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center">
+            {/* Image Column */}
+            <div className="mb-8 flex items-center justify-center">
+              <div className="image-wrapper">
+                <img 
+                  src="https://ik.imagekit.io/affin/glycomute/glycomute-6-bottles.png?updatedAt=1765391043245" 
+                  alt="GlycoMute 6 bottles" 
+                  className="mx-auto"
+                  style={{
+                    width: '100%',
+                    maxWidth: '400px',
+                    height: 'auto',
+                    objectFit: 'contain',
+                    display: 'block'
+                  }}
+                />
               </div>
+            </div>
+
+            {/* Text Column */}
+            <div>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-8" style={{
+                fontWeight: 900,
+                letterSpacing: '-0.02em',
+                textTransform: 'uppercase'
+              }}>
+                Don't Wait Any Longer! Order Your<br />
+                Discounted Bottle Now!
+              </h2>
+              
+              <div className="space-y-4 mb-8">
+                <p className="text-xl text-white font-bold" style={{
+                  fontWeight: 700,
+                  letterSpacing: '0.02em',
+                }}>Take action now before this opportunity expires!</p>
+                <p className="text-lg text-white" style={{
+                  fontWeight: 600,
+                  letterSpacing: '0.01em',
+                }}>
+                  Regular Price: <s className="opacity-75">$99/per bottle</s>
+                </p>
+                <p className="text-2xl text-white font-extrabold" style={{
+                  fontWeight: 900,
+                  letterSpacing: '0.02em',
+                }}>
+                  Today's Price: $49/per bottle
+                </p>
+              </div>
+
+              <a 
+                href="https://sweetfend.com/c/order-now.php?affiliate=ubro12&pid=pre1&tid=ubro12" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary btn-large inline-flex items-center gap-2"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+                CLAIM YOUR DISCOUNT NOW
+              </a>
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }
-

@@ -35,7 +35,7 @@
 .cid-uwxCXuDQMI {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-image: url("/assets/images/mitolyn-website-.webp");
+  /* background-image: url("/assets/images/mitolyn-website-.webp"); */ /* Removed - old Mitolyn reference */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

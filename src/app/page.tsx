@@ -1,17 +1,15 @@
 import Header from '@/components/Header';
+import TitleSection from '@/components/TitleSection';
 import Hero from '@/components/Hero';
-import TrustBadges from '@/components/TrustBadges';
-import WhatIsMitolyn from '@/components/WhatIsMitolyn';
-import HowItWorks from '@/components/HowItWorks';
-import Benefits from '@/components/Benefits';
-import Ingredients from '@/components/Ingredients';
-import ScientificDiscovery from '@/components/ScientificDiscovery';
+import WhyChooseGlycoMute from '@/components/WhyChooseGlycoMute';
 import Reviews from '@/components/Reviews';
-import ComparisonSection from '@/components/ComparisonSection';
 import PricingSection from '@/components/PricingSection';
+import WhatIsGlycoMute from '@/components/WhatIsGlycoMute';
+import HowItWorks from '@/components/HowItWorks';
+import Ingredients from '@/components/Ingredients';
+import Benefits from '@/components/Benefits';
 import Bonuses from '@/components/Bonuses';
 import Guarantee from '@/components/Guarantee';
-import PricingOffer from '@/components/PricingOffer';
 import FAQ from '@/components/FAQ';
 import FinalCTA from '@/components/FinalCTA';
 import Footer from '@/components/Footer';
@@ -19,23 +17,19 @@ import StructuredData from '@/components/StructuredData';
 
 export default function Home() {
   return (
-    <div className="min-h-screen" style={{ background: 'linear-gradient(to bottom, #ffffff, #f3e8ff, #ffffff)' }}>
+    <div className="min-h-screen bg-white" style={{ width: '100%', maxWidth: '100%', overflowX: 'hidden' }}>
       <StructuredData />
       <Header />
-      <main>
+      <main style={{ width: '100%', maxWidth: '100%' }}>
+        <TitleSection />
         <Hero />
-        <TrustBadges />
-        <WhatIsMitolyn />
+        <WhyChooseGlycoMute />
         <HowItWorks />
-        <Benefits />
         <Ingredients />
-        <ScientificDiscovery />
-        <Reviews />
-        <ComparisonSection />
-        <PricingSection />
+        <Benefits />
         <Bonuses />
+        <PricingSection />
         <Guarantee />
-        <PricingOffer />
         <FAQ />
         <FinalCTA />
       </main>
