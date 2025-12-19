@@ -1,0 +1,31 @@
+User-Agent: *
+
+Allow: /
+
+Disallow: /api/
+
+Disallow: /admin/
+
+
+
+User-Agent: Googlebot
+
+Allow: /
+
+Disallow: /api/
+
+Disallow: /admin/
+
+
+
+User-Agent: Bingbot
+
+Allow: /
+
+Disallow: /api/
+
+Disallow: /admin/
+
+
+
+Sitemap: https://glycomutez.com/sitemap.xml
