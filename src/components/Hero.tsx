@@ -38,7 +38,7 @@ export default function Hero() {
               lineHeight: '1.7',
               marginBottom: '1.5rem'
             }}>
-              GlycoMute is a natural daily supplement that helps keep blood sugar steady and energy even, without stimulants or harsh chemicals.
+              GlycoMute is a natural daily supplement that helps keep your blood sugar steady and your energy even, with no stimulants or man-made chemicals.
             </p>
             <p className="mb-8" style={{ 
               fontSize: 'clamp(1rem, 2vw, 1.125rem)',
@@ -49,20 +49,20 @@ export default function Hero() {
               lineHeight: '1.7',
               marginBottom: '2rem'
             }}>
-              Its plant-based blend supports smoother glucose metabolism, a healthy insulin response, and balanced metabolic function. Proudly made in the USA in a GMP-certified facility, it’s quality you can trust every day.
+              This plant-based formula helps your body use sugar better, helps your body respond to insulin better, and helps keep your body working well. Made in the USA at a GMP-certified facility, you can trust it's good quality.
             </p>
             <div className="mb-8 grid sm:grid-cols-2 gap-3 text-sm" style={{ color: '#111827', fontWeight: 600, letterSpacing: '0.01em' }}>
               <div className="flex items-center gap-2">
-                <span style={{ color: '#16a34a' }}>✅</span> Supports healthy blood sugar levels
+                <span style={{ color: '#16a34a' }}>✅</span> Helps keep blood sugar healthy
               </div>
               <div className="flex items-center gap-2">
-                <span style={{ color: '#16a34a' }}>✅</span> Promotes balanced metabolic function
+                <span style={{ color: '#16a34a' }}>✅</span> Helps your body work better
               </div>
               <div className="flex items-center gap-2">
-                <span style={{ color: '#16a34a' }}>✅</span> Enhances natural, all-day energy
+                <span style={{ color: '#16a34a' }}>✅</span> Boosts natural energy all day
               </div>
               <div className="flex items-center gap-2">
-                <span style={{ color: '#16a34a' }}>✅</span> Helps reduce cravings and snacking
+                <span style={{ color: '#16a34a' }}>✅</span> Helps cut down cravings and snacking
               </div>
             </div>
             <a 

@@ -1,28 +1,28 @@
 export default function Reviews() {
   const reviews = [
     {
-      name: "Olivia C.",
-      location: "Miami, USA",
+      name: "Sarah K.",
+      location: "Los Angeles, USA",
       image: "https://ik.imagekit.io/affin/glycomute/leptithinmax-review-3.webp?updatedAt=1765391042861",
       rating: "⭐⭐⭐⭐⭐",
       verified: "Verified Purchase",
-      text: "I always struggled with sugar cravings and afternoon crashes, which made managing my weight and energy so hard. GlycoMute completely changed that for me. It helped balance my blood sugar, reduced my cravings, and kept my energy steady all day. In just 10 weeks, I felt healthier, lighter, and more in control. If you want safe and effective blood sugar support, GlycoMute is the one!"
+      text: "I always had trouble with sugar cravings and afternoon crashes, which made it hard to manage my weight and energy. GlycoMute changed that for me. It helped balance my blood sugar, cut down my cravings, and kept my energy steady all day. In just 10 weeks, I felt healthier, lighter, and more in control. If you want safe and helpful blood sugar support, GlycoMute is the one!"
     },
     {
-      name: "David T.",
-      location: "New York, USA",
+      name: "Michael R.",
+      location: "Houston, USA",
       image: "https://ik.imagekit.io/affin/glycomute/leptithinmax-review-2.webp?updatedAt=1765391042870",
       rating: "⭐⭐⭐⭐⭐",
       verified: "Verified Purchase",
-      text: "Managing my blood sugar used to feel like a constant struggle. I would get tired easily, especially after meals, and my energy was all over the place. Since starting GlycoMute, my readings have become more stable, and I feel more energized throughout the day. It also helped reduce my cravings, which made staying consistent with my diet much easier. GlycoMute has truly helped me regain balance and confidence."
+      text: "Keeping my blood sugar steady used to feel like a constant battle. I would get tired easily, especially after meals, and my energy was all over the place. Since starting GlycoMute, my readings have become more stable, and I feel more energized all day. It also helped cut down my cravings, which made it much easier to stick with my diet. GlycoMute has really helped me get back my balance and confidence."
     },
     {
-      name: "Jessica M.",
-      location: "Chicago, USA",
+      name: "Emily P.",
+      location: "Phoenix, USA",
       image: "https://ik.imagekit.io/affin/glycomute/leptithinmax-review-1.webp?updatedAt=1765391042934",
       rating: "⭐⭐⭐⭐⭐",
       verified: "Verified Purchase",
-      text: "I used to experience sudden sugar crashes during the day, which made it hard to focus and stay productive. After taking GlycoMute consistently, my energy levels feel smoother, my cravings are under control, and my blood sugar readings have improved noticeably. I finally feel stable, clear-headed, and more in control of my daily routine. GlycoMute has been a real game-changer for my wellness."
+      text: "I used to have sudden sugar crashes during the day, which made it hard to focus and get things done. After taking GlycoMute regularly, my energy feels smoother, my cravings are under control, and my blood sugar readings have gotten better. I finally feel steady, clear-headed, and more in control of my daily routine. GlycoMute has really changed things for my health."
     }
   ];
 
@@ -37,7 +37,7 @@ export default function Reviews() {
           <p style={{
             fontWeight: 500,
             letterSpacing: '0.01em'
-          }}>Real stories from real customers who have experienced the benefits of GlycoMute</p>
+          }}>Real stories from real customers who have seen the benefits of GlycoMute</p>
         </div>
 
         <div className="grid md:grid-cols-1 gap-6">

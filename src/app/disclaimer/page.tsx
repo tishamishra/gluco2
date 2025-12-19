@@ -3,10 +3,10 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Disclaimer | GlycoMute Official',
-  description: 'GlycoMute official disclaimer. Essential details about using our website and products on the official GlycoMute online store.',
+  description: 'Review GlycoMute disclaimer information. Important terms and conditions for website usage and product purchases on our official store.',
   keywords: 'GlycoMute disclaimer, GlycoMute legal disclaimer, GlycoMute product disclaimer, GlycoMute website disclaimer',
   alternates: {
-    canonical: 'https://glycomute-order.com/disclaimer',
+    canonical: 'https://glycomutez.com/disclaimer',
   },
 };
 

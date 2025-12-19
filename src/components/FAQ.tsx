@@ -8,43 +8,43 @@ export default function FAQ() {
   const faqs = [
     {
       question: "What is GlycoMute?",
-      answer: "GlycoMute is a plant-based supplement that helps keep blood sugar steady and energy even."
+      answer: "GlycoMute is a natural way to keep your blood sugar healthy and your energy steady. Made with plant ingredients, it helps control blood sugar, helps your body use insulin better, and helps keep your body balanced."
     },
     {
       question: "How does GlycoMute work?",
-      answer: "It blends ingredients that help your body handle carbs smoothly and support a healthy insulin response."
+      answer: "GlycoMute works by helping your body's natural ways of handling sugar. The mix helps break down carbs slower, helps insulin work better, and helps keep blood sugar stable for steady energy all day."
     },
     {
       question: "Is GlycoMute safe to use?",
-      answer: "Yes. It’s made in the USA in GMP and FDA-registered facilities. Check with your doctor if you’re on medication."
+      answer: "Yes. GlycoMute uses only natural plant ingredients. Made in GMP-certified, FDA-approved factories in the USA. We recommend talking to your doctor before starting any new supplement."
     },
     {
       question: "Who should take GlycoMute?",
-      answer: "Adults who want support for healthy blood sugar, steadier energy, and fewer spikes or crashes."
+      answer: "Adults looking for natural help to keep blood sugar steady, have more stable daily energy, and have fewer ups and downs throughout the day."
     },
     {
       question: "How long does it take to see results?",
-      answer: "Many people feel a difference in 2–4 weeks; fuller results often show in 60–90 days."
+      answer: "Some people see results in 2–4 weeks of regular use, while full benefits usually show up after 60–90 days of taking it regularly."
     },
     {
       question: "Does GlycoMute contain stimulants?",
-      answer: "No. It’s stimulant-free and non-habit forming."
+      answer: "No. The formula has no stimulants and is made to be non-addictive."
     },
     {
       question: "How should I take GlycoMute?",
-      answer: "Take two capsules daily with a meal."
+      answer: "Take two capsules each day with a meal for best results."
     },
     {
       question: "Can I take GlycoMute with medications?",
-      answer: "If you take diabetes meds or insulin, talk with your doctor before using it."
+      answer: "If you take prescription drugs for diabetes or insulin treatment, talk to your doctor before starting GlycoMute."
     },
     {
       question: "Are there any side effects?",
-      answer: "It’s generally well tolerated; most users don’t report major side effects."
+      answer: "The supplement usually works well for most people, with most reporting few or no side effects when used as directed."
     },
     {
       question: "Is there a money-back guarantee?",
-      answer: "Yes. There’s a 90-day money-back guarantee."
+      answer: "Yes, we offer a full 90-day money-back guarantee on all purchases."
     }
   ];
 

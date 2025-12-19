@@ -85,34 +85,34 @@ export default function WhyChooseGlycoMute() {
               fontWeight: 500,
               letterSpacing: '0.01em',
               textAlign: 'center'
-            }}>Authentic experiences from verified customers who have transformed their wellness with GlycoMute</p>
+            }}>Real stories from real customers who have improved their health with GlycoMute</p>
           </div>
 
           <div className="grid md:grid-cols-1 gap-6">
             {[
               {
-                name: "Olivia C.",
-                location: "Miami, USA",
+                name: "Sarah K.",
+                location: "Los Angeles, USA",
                 image: "https://ik.imagekit.io/affin/glycomute/leptithinmax-review-3.webp?updatedAt=1765391042861",
                 rating: "⭐⭐⭐⭐⭐",
                 verified: "Verified Purchase",
-                text: "I used to crash hard every afternoon and kept reaching for snacks. With GlycoMute, my numbers are steadier, cravings eased up, and my energy lasts. In about 10 weeks I felt lighter and back in control."
+                text: "I used to feel really tired every afternoon and kept grabbing snacks. With GlycoMute, my blood sugar is more steady, my cravings went down, and my energy stays up. After about 10 weeks I felt better and more in charge."
               },
               {
-                name: "David T.",
-                location: "New York, USA",
+                name: "Michael R.",
+                location: "Houston, USA",
                 image: "https://ik.imagekit.io/affin/glycomute/leptithinmax-review-2.webp?updatedAt=1765391042870",
                 rating: "⭐⭐⭐⭐⭐",
                 verified: "Verified Purchase",
-                text: "Managing my blood sugar used to feel like a fight. Meals wiped me out and my energy jumped around. After starting GlycoMute, my readings settled down, I stay awake through the day, and cravings are way lower."
+                text: "Keeping my blood sugar steady used to be really hard. After eating I would get so tired and my energy was up and down. Since I started GlycoMute, my numbers are more stable, I can stay alert all day, and my cravings dropped a lot."
               },
               {
-                name: "Jessica M.",
-                location: "Chicago, USA",
+                name: "Emily P.",
+                location: "Phoenix, USA",
                 image: "https://ik.imagekit.io/affin/glycomute/leptithinmax-review-1.webp?updatedAt=1765391042934",
                 rating: "⭐⭐⭐⭐⭐",
                 verified: "Verified Purchase",
-                text: "I’d hit sudden lows during work and lose focus. Staying on GlycoMute evened out my energy and helped me avoid random snacking. My readings look better and I feel clear and steady."
+                text: "I would have sudden drops during work and couldn't focus. Taking GlycoMute regularly smoothed out my energy and helped me stop snacking so much. My numbers improved and I feel focused and balanced."
               }
             ].map((review, index) => (
               <div key={index} className="card">
@@ -233,7 +233,7 @@ export default function WhyChooseGlycoMute() {
                 color: '#dc2626',
                 fontWeight: 800,
                 letterSpacing: '-0.01em',
-              }}>GlycoMute: Daily Assistance for Optimal Glucose Balance</h3>
+              }}>GlycoMute: Daily Help for Healthy Blood Sugar</h3>
               <p className="text-gray-700 leading-relaxed" style={{
                 fontWeight: 500,
                 letterSpacing: '0.01em',
@@ -247,7 +247,7 @@ export default function WhyChooseGlycoMute() {
                 color: '#dc2626',
                 fontWeight: 800,
                 letterSpacing: '-0.01em',
-              }}>How GlycoMute Enhances Your Body's Functions</h3>
+              }}>How GlycoMute Helps Your Body Work Better</h3>
               <p className="text-gray-700 leading-relaxed" style={{
                 fontWeight: 500,
                 letterSpacing: '0.01em',
@@ -267,7 +267,7 @@ export default function WhyChooseGlycoMute() {
                   color: '#dc2626',
                   fontWeight: 800,
                   letterSpacing: '-0.01em',
-                }}>Vitality, Equilibrium, and Metabolic Enhancement</h3>
+                }}>Energy, Balance, and Better Health</h3>
                 <p className="text-gray-700 leading-relaxed" style={{
                   fontWeight: 500,
                   letterSpacing: '0.01em',

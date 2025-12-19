@@ -27,31 +27,31 @@ export default function ScientificDiscovery() {
                 <strong>Key Benefits of GlycoMute:</strong>
               </h4>
               <p className="mbr-text mbr-fonts-style display-7 text-base md:text-lg leading-relaxed" style={{ color: '#000000', fontFamily: 'Jost, sans-serif', textAlign: 'left' }}>
-                GlycoMute provides comprehensive daily support for individuals seeking natural blood sugar balance, steady energy, and metabolic wellness. GlycoMute's science-backed formula targets key aspects of glucose metabolism and cellular health. Here are GlycoMute's primary advantages:
+                GlycoMute gives you full daily help for people looking for natural blood sugar balance, steady energy, and better health. GlycoMute's science-backed formula works on important parts of how your body uses sugar and keeps your cells healthy. Here are GlycoMute's main benefits:
                 <br /><br />
                 <strong>➤ Supports Healthy Blood Sugar Levels<br /></strong>
-                GlycoMute helps maintain stable glucose readings by supporting smoother sugar absorption and healthier metabolic function throughout the day.
+                GlycoMute helps keep blood sugar readings steady by helping your body take in sugar better and keeping your body working well all day.
                 <br /><br />
                 <strong>➤ Promotes Balanced Energy<br /></strong>
-                GlycoMute encourages consistent daily energy by helping the body convert glucose into steady fuel, reducing mid-day crashes and fatigue.
+                GlycoMute helps keep your energy steady every day by helping your body turn sugar into steady fuel, cutting down on afternoon crashes and tiredness.
                 <br /><br />
                 <strong>➤ Reduces Sugar Cravings<br /></strong>
-                GlycoMute's natural blend helps control sugar cravings, making it easier to maintain healthy eating habits and avoid unnecessary snacking.
+                GlycoMute's natural mix helps control sugar cravings, making it easier to keep healthy eating habits and avoid extra snacking.
                 <br /><br />
                 <strong>➤ Enhances Mental Clarity<br /></strong>
-                GlycoMute supports sharper thinking, improved focus, and reduced brain fog by promoting balanced blood sugar levels throughout the day.
+                GlycoMute helps you think better, focus more, and feel less foggy by keeping blood sugar levels balanced all day.
                 <br /><br />
                 <strong>➤ Supports Metabolic Health<br /></strong>
-                GlycoMute assists efficient glucose processing, helping your body maintain a healthier metabolic rhythm and better overall wellness.
+                GlycoMute helps your body use sugar better, helping your body keep a healthier rhythm and better overall health.
                 <br /><br />
                 <strong>➤ Natural Weight Management Support<br /></strong>
-                GlycoMute helps support healthy weight control over time by reducing cravings and promoting more balanced energy levels.
+                GlycoMute helps support healthy weight control over time by cutting down cravings and helping keep energy levels more balanced.
                 <br /><br />
                 <strong>➤ Pure, Plant-Based Formula<br /></strong>
-                GlycoMute is crafted with non-GMO, natural plant extracts and free from synthetic additives—ideal for safe, long-term daily use.
+                GlycoMute is made with non-GMO, natural plant extracts and has no man-made additives—perfect for safe, long-term daily use.
                 <br /><br />
                 <strong>➤ Trusted Source<br /></strong>
-                GlycoMute is available directly from the GlycoMute Official Store, offering authentic products, special pricing, fast shipping, and reliable customer support.
+                GlycoMute is available directly from the GlycoMute Official Store, offering real products, special prices, fast shipping, and helpful customer support.
               </p>
             </div>
           </div>

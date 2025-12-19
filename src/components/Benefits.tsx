@@ -1,12 +1,12 @@
 export default function Benefits() {
   const benefits = [
-    "Keeps blood sugar steady: Helps your body handle sugar more smoothly for even readings day to day.",
-    "Steadier energy: Supports turning sugar into steady fuel so you feel less afternoon drag.",
-    "Fewer cravings: Calms sugar swings that trigger snacking, making it easier to stay on track.",
-    "Clearer focus: Stable glucose can mean clearer thinking and less brain fog.",
-    "Metabolic support: Helps your system break down carbs without big ups and downs.",
-    "Weight-friendly habits: With steadier energy and fewer cravings, healthy choices get easier.",
-    "Calmer mood: Balanced blood sugar can ease irritability and help you feel more steady."
+    "Keeps blood sugar steady: Helps your body use sugar better for even readings day to day.",
+    "Steady energy: Helps turn sugar into steady fuel so you feel less tired in the afternoon.",
+    "Fewer cravings: Keeps blood sugar from swinging, which often leads to snacking, making it easier to eat better.",
+    "Clearer thinking: Steady blood sugar helps you think better and feel less foggy.",
+    "Better metabolism: Helps your body break down carbs without big ups and downs.",
+    "Weight support: More steady energy and fewer cravings make it easier to make healthy choices.",
+    "Better mood: Steady blood sugar may help reduce mood swings and keep you feeling more even."
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function Benefits() {
               fontWeight: 500,
               letterSpacing: '0.01em'
             }}>
-              <strong className="text-lg" style={{ fontWeight: 700 }}>GlycoMute</strong> is made to help keep blood sugar steady while supporting energy, focus, and overall balance. Its plant-based blend works with your routine so you can feel consistent day after day.
+              <strong className="text-lg" style={{ fontWeight: 700 }}>GlycoMute</strong> is made to help keep blood sugar steady while boosting energy, clear thinking, and overall health. This plant-based mix fits easily into your daily routine for steady results every day.
             </p>
 
             <div className="space-y-4">

@@ -3,10 +3,10 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Order Tracking | GlycoMute Official',
-  description: 'Monitor your GlycoMute purchase status on our official site. Access order help and shipping details for your GlycoMute order.',
+  description: 'Track your GlycoMute order status on our official website. Get shipping updates and delivery information for your purchase.',
   keywords: 'GlycoMute order tracking, GlycoMute shipping status, GlycoMute delivery tracking, GlycoMute order status',
   alternates: {
-    canonical: 'https://glycomute-order.com/order-tracking',
+    canonical: 'https://glycomutez.com/order-tracking',
   },
 };
 

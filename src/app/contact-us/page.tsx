@@ -3,10 +3,10 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Contact Us | GlycoMute Official',
-  description: 'Reach out to GlycoMute customer service. Get help with purchases, shipping, returns, and product questions on the official GlycoMute website.',
+  description: 'Contact GlycoMute support team for assistance. Find help with orders, delivery tracking, refunds, and product inquiries on our official site.',
   keywords: 'GlycoMute contact, GlycoMute customer service, GlycoMute support, GlycoMute help',
   alternates: {
-    canonical: 'https://glycomute-order.com/contact-us',
+    canonical: 'https://glycomutez.com/contact-us',
   },
 };
 

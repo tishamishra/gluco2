@@ -47,7 +47,7 @@ export default function HowItWorks() {
               lineHeight: '1.6',
               fontSize: 'clamp(1rem, 2vw, 1.125rem)'
             }}>
-              <strong className="text-lg" style={{ fontWeight: 700 }}>GlycoMute</strong> works with your body to keep blood sugar in a steady, healthy range. It’s not a swap for good food and movement—it’s a daily helper that makes those habits pay off.
+              <strong className="text-lg" style={{ fontWeight: 700 }}>GlycoMute</strong> works with your body's natural systems to keep blood sugar balanced. Instead of replacing healthy eating and exercise, it works as a daily helper that makes those good habits work even better.
             </p>
 
             <div className="space-y-6">
@@ -56,7 +56,7 @@ export default function HowItWorks() {
                   color: '#dc2626',
                   fontWeight: 800,
                   letterSpacing: '-0.01em',
-                }}>1. Optimizing Glucose Processing: Enhances Insulin Responsiveness</h4>
+                }}>1. Helps Your Body Use Sugar Better: Makes Insulin Work Better</h4>
                 <p className="text-gray-700 leading-relaxed" style={{
                   fontWeight: 500,
                   letterSpacing: '0.01em',
@@ -64,7 +64,7 @@ export default function HowItWorks() {
                   lineHeight: '1.6',
                   fontSize: 'clamp(1rem, 2vw, 1.125rem)'
                 }}>
-                  Ingredients like Chromium and Berberine can help your cells respond better to insulin, the signal that moves sugar into cells for energy. Better response means smoother glucose use.
+                  Ingredients like Chromium and Berberine help your cells respond better to insulin, the hormone that moves sugar into cells where it turns into energy. Better response means your body uses sugar more efficiently.
                 </p>
               </div>
 
@@ -73,7 +73,7 @@ export default function HowItWorks() {
                   color: '#dc2626',
                   fontWeight: 800,
                   letterSpacing: '-0.01em',
-                }}>2. Facilitates Carbohydrate Breakdown</h4>
+                }}>2. Helps Break Down Carbs Slower</h4>
                 <p className="text-gray-700 leading-relaxed" style={{
                   fontWeight: 500,
                   letterSpacing: '0.01em',
@@ -81,7 +81,7 @@ export default function HowItWorks() {
                   lineHeight: '1.6',
                   fontSize: 'clamp(1rem, 2vw, 1.125rem)'
                 }}>
-                  Cinnamon Bark and other plant compounds can slow how quickly carbs turn into glucose, helping avoid sharp spikes after meals.
+                  Cinnamon Bark and other plant ingredients can slow down how fast carbs turn into sugar, which helps prevent big spikes in blood sugar after meals.
                 </p>
               </div>
 
@@ -90,7 +90,7 @@ export default function HowItWorks() {
                   color: '#dc2626',
                   fontWeight: 800,
                   letterSpacing: '-0.01em',
-                }}>3. Cellular Defense Through Antioxidants</h4>
+                }}>3. Protects Your Cells with Antioxidants</h4>
                 <p className="text-gray-700 leading-relaxed" style={{
                   fontWeight: 500,
                   letterSpacing: '0.01em',
@@ -98,7 +98,7 @@ export default function HowItWorks() {
                   lineHeight: '1.6',
                   fontSize: 'clamp(1rem, 2vw, 1.125rem)'
                 }}>
-                  The formula also carries antioxidants that help protect the cells that handle sugar, keeping them healthier so they can do their job.
+                  The mix includes antioxidants that help protect the cells that handle sugar, keeping them healthy so they can do their job well.
                 </p>
               </div>
 
@@ -110,7 +110,7 @@ export default function HowItWorks() {
                   lineHeight: '1.6',
                   fontSize: 'clamp(1rem, 2vw, 1.125rem)'
                 }}>
-                  In plain terms, GlycoMute gives your body nutrients that help use sugar from food without big swings. That supports steady blood sugar and steadier energy day after day.
+                  In simple terms, GlycoMute gives your body important nutrients that help it use sugar from food better, with fewer big swings. This helps keep blood sugar steady and gives you more reliable energy day after day.
                 </p>
               </div>
             </div>

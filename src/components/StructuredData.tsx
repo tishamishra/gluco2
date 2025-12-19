@@ -1,12 +1,12 @@
 export default function StructuredData() {
-  const baseUrl = "https://glycomute-order.com";
+  const baseUrl = "https://glycomutez.com";
 
   // Product Schema
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "GlycoMute",
-    "description": "GlycoMute offers a natural approach to maintaining optimal blood sugar levels and consistent daily energy. This botanical blend helps regulate glucose processing, enhances insulin function, and supports overall metabolic health.",
+    "description": "GlycoMute gives you natural help to keep your blood sugar steady and your energy even all day. This plant-based mix helps control blood sugar, helps your body use insulin better, and helps keep your body working well.",
     "brand": {
       "@type": "Brand",
       "name": "GlycoMute"
@@ -41,9 +41,9 @@ export default function StructuredData() {
         },
         "author": {
           "@type": "Person",
-          "name": "Olivia C."
+          "name": "Sarah K."
         },
-        "reviewBody": "GlycoMute completely changed my approach to blood sugar management. My energy levels are now steady throughout the day, and my cravings have significantly reduced. I feel healthier and more in control."
+        "reviewBody": "GlycoMute changed how I manage my blood sugar. I have steady energy all day, and my food cravings have dropped a lot. I feel more balanced and confident about my health."
       },
       {
         "@type": "Review",
@@ -54,9 +54,9 @@ export default function StructuredData() {
         },
         "author": {
           "@type": "Person",
-          "name": "David T."
+          "name": "Michael R."
         },
-        "reviewBody": "Excellent blood sugar support supplement. Ordering from the official GlycoMute website was simple and my order arrived quickly. My readings have become much more stable."
+        "reviewBody": "Excellent supplement for blood sugar support. Ordering from the official GlycoMute site was simple and delivery was quick. My blood sugar readings are now much more stable."
       }
     ]
   };
@@ -141,7 +141,7 @@ export default function StructuredData() {
         "name": "What is GlycoMute?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "GlycoMute provides a natural solution for maintaining healthy blood sugar and consistent energy levels. Formulated with botanical ingredients, it assists in glucose regulation, improves insulin sensitivity, and supports metabolic balance."
+          "text": "GlycoMute is a plant-based supplement made to help keep your blood sugar healthy and your energy steady every day. Made with natural plant extracts, it helps your body use sugar better, helps insulin work better, and helps keep your body balanced."
         }
       },
       {
@@ -149,7 +149,7 @@ export default function StructuredData() {
         "name": "How does GlycoMute work?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "GlycoMute functions by enhancing your body's innate glucose management mechanisms. The blend assists in moderating carb breakdown, improves insulin efficiency, and helps maintain stable blood sugar for sustained daily vitality."
+          "text": "GlycoMute works with your body to keep blood sugar in a steady, healthy range. It's not a replacement for good food and exercise—it's a daily helper that makes those habits work better by helping break down carbs better, helping your cells respond to insulin better, and keeping blood sugar stable for all-day energy."
         }
       },
       {
@@ -157,7 +157,7 @@ export default function StructuredData() {
         "name": "Where can I buy GlycoMute?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "GlycoMute can only be purchased directly from our official website. Browse our digital storefront to complete your order and take advantage of current discount pricing and exclusive deals."
+          "text": "GlycoMute is only available on our official website. Visit our site to place your order and get special discount prices and limited-time deals."
         }
       },
       {
@@ -165,7 +165,7 @@ export default function StructuredData() {
         "name": "Is GlycoMute safe to use?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Absolutely. GlycoMute uses exclusively natural botanical components. Manufacturing occurs in GMP-compliant, FDA-registered facilities located in the USA. We recommend consulting with your physician before beginning any new supplement regimen."
+          "text": "Yes. GlycoMute has only natural plant ingredients. It's made in GMP-certified, FDA-approved factories in the United States. Always talk to your doctor before starting any new supplement."
         }
       }
     ]

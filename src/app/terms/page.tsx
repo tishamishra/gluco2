@@ -3,10 +3,10 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Terms & Conditions | GlycoMute Official',
-  description: 'GlycoMute official terms and conditions. Review the guidelines and policies for using the GlycoMute official website.',
+  description: 'Read GlycoMute terms and conditions. Understand the rules and regulations governing use of our official GlycoMute website.',
   keywords: 'GlycoMute terms, GlycoMute conditions, GlycoMute website terms, GlycoMute legal terms',
   alternates: {
-    canonical: 'https://glycomute-order.com/terms',
+    canonical: 'https://glycomutez.com/terms',
   },
 };
 

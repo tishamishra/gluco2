@@ -2,27 +2,27 @@ export default function Ingredients() {
   const ingredients = [
     {
       name: "Banaba (leaf extract)",
-      description: "Banaba assists your system in utilizing glucose more uniformly following meals. It promotes gentler sugar breakdown, potentially minimizing abrupt elevations and drops. This supports sustained vitality and enhanced daily stability."
+      description: "Banaba helps your body use sugar more evenly after meals. It helps break down sugar more gently, which may reduce sudden spikes and drops. This helps keep your energy steady and your day more stable."
     },
     {
       name: "Guggul Gum Resin",
-      description: "Guggul enhances proper insulin function, enabling your body to process glucose with greater effectiveness. Through encouraging more stable glucose concentrations, it supports metabolic equilibrium and more consistent energy patterns daily."
+      description: "Guggul helps insulin work better, which lets your body use sugar more effectively. By helping keep blood sugar more stable, it supports better metabolism and more steady energy throughout the day."
     },
     {
       name: "Bitter Melon",
-      description: "Bitter melon includes natural substances that function comparably to insulin, assisting the system in handling elevated glucose concentrations post-meal. It facilitates standard glucose breakdown, particularly following high-carbohydrate consumption, for steadier measurements."
+      description: "Bitter melon has natural compounds that work like insulin, helping your body handle high blood sugar after meals. It helps break down sugar normally, especially after eating high-carb foods, for steadier readings."
     },
     {
       name: "Gymnema",
-      description: "Gymnema is recognized for diminishing sugar cravings by decreasing sweet taste sensitivity. This curbs appetite impulses, encourages healthier dietary patterns, and simplifies avoiding excessive snacking."
+      description: "Gymnema is known for reducing sugar cravings by making sweet things taste less sweet. This helps control your appetite, encourages healthier eating, and makes it easier to avoid too much snacking."
     },
     {
       name: "Juniper Berries",
-      description: "Juniper berries promote proper glucose utilization and general metabolic performance. They maintain more uniform energy levels throughout the day by supporting your body's innate sugar regulation mechanisms."
+      description: "Juniper berries help your body use sugar properly and keep your metabolism working well. They help keep energy levels more even throughout the day by supporting your body's natural ways of controlling sugar."
     },
     {
       name: "White Mulberry (leaf extract)",
-      description: "White mulberry decelerates sugar absorption rates in the digestive tract following meals. This encourages more stable glucose concentrations, reducing abrupt energy declines and fostering more even daily vitality."
+      description: "White mulberry slows down how fast sugar is absorbed in your gut after meals. This helps keep blood sugar more stable, reducing sudden energy drops and helping you feel more even all day."
     }
   ];
 
@@ -48,7 +48,7 @@ export default function Ingredients() {
         <div className="max-w-4xl mx-auto mb-8">
           <div className="card bg-white">
             <p className="text-gray-700 leading-relaxed text-center">
-              <strong>GlycoMute</strong> uses a careful mix of plant extracts and minerals to help keep blood sugar steady, energy even, and your day on track. Here’s how each ingredient can help:
+              <strong>GlycoMute</strong> uses a careful mix of plant extracts and important minerals to help keep blood sugar steady, energy even, and your day on track. Here's how each ingredient helps:
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function Ingredients() {
         <div className="max-w-4xl mx-auto mt-8">
           <div className="card bg-white">
             <p className="text-gray-700 leading-relaxed text-center">
-              <strong>GlycoMute</strong> uses well-studied plants and minerals to support healthy glucose balance and steady energy. Together, they help your body manage sugar smoothly so you can feel clear and consistent all day.
+              <strong>GlycoMute</strong> uses well-studied plant ingredients and minerals that help keep blood sugar healthy and energy steady. Together, these ingredients help your body use sugar well so you can feel clear and steady all day.
             </p>
           </div>
         </div>

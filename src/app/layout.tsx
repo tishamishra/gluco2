@@ -3,13 +3,13 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "GlycoMute™ Official | Daily Blood Sugar Wellness Formula",
-  description: "Experience natural glucose balance with GlycoMute. Read authentic testimonials, explore proven benefits, and purchase GlycoMute for optimal blood sugar control and sustained vitality.",
+  title: "GlycoMute™ Official | Natural Blood Sugar Support Formula",
+  description: "Learn about GlycoMute's natural way to control blood sugar. Read real customer reviews, see the main benefits, and order GlycoMute for steady blood sugar and even energy every day.",
   keywords: "GlycoMute, GlycoMute official, GlycoMute buy, GlycoMute blood sugar, GlycoMute reviews, GlycoMute official website, GlycoMute online store, GlycoMute glucose support, GlycoMute supplement",
   openGraph: {
-    title: "GlycoMute™ Official | Daily Blood Sugar Wellness Formula",
-    description: "Experience natural glucose balance with GlycoMute. Read authentic testimonials, explore proven benefits, and purchase GlycoMute for optimal blood sugar control and sustained vitality.",
-    url: "https://glycomute-order.com/",
+    title: "GlycoMute™ Official | Natural Blood Sugar Support Formula",
+    description: "Learn about GlycoMute's natural way to control blood sugar. Read real customer reviews, see the main benefits, and order GlycoMute for steady blood sugar and even energy every day.",
+    url: "https://glycomutez.com/",
     siteName: "GlycoMute Official",
     type: "website",
     images: [
@@ -23,12 +23,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "GlycoMute™ Official | Daily Blood Sugar Wellness Formula",
-    description: "Experience natural glucose balance with GlycoMute. Browse customer stories and purchase GlycoMute for optimal blood sugar management and lasting energy.",
+    title: "GlycoMute™ Official | Natural Blood Sugar Support Formula",
+    description: "Learn about GlycoMute's natural way to control blood sugar. Read customer reviews and order GlycoMute for steady blood sugar help and steady energy.",
     images: ["https://ik.imagekit.io/affin/glycomute/glycomute-supplement.png"],
   },
   alternates: {
-    canonical: "https://glycomute-order.com/",
+    canonical: "https://glycomutez.com/",
   },
   icons: {
     icon: [

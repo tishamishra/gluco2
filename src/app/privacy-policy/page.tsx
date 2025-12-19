@@ -3,10 +3,10 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Privacy Policy | GlycoMute Official',
-  description: 'GlycoMute official privacy policy. Understand how we gather, utilize, and safeguard your personal data on the official GlycoMute website.',
+  description: 'Read GlycoMute privacy policy details. Learn about our data collection practices and how we protect your personal information on our official site.',
   keywords: 'GlycoMute privacy, GlycoMute data protection, GlycoMute privacy policy, GlycoMute personal information',
   alternates: {
-    canonical: 'https://glycomute-order.com/privacy-policy',
+    canonical: 'https://glycomutez.com/privacy-policy',
   },
 };
 

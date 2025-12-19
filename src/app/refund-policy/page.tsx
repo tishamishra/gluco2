@@ -3,10 +3,10 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Refund Policy | GlycoMute Official',
-  description: 'GlycoMute official refund policy. Discover our 90-day satisfaction guarantee and return procedure on the official GlycoMute site.',
+  description: 'View GlycoMute refund policy information. Learn about our 90-day money-back guarantee and how to request returns on our official website.',
   keywords: 'GlycoMute refund, GlycoMute return policy, GlycoMute money back guarantee, GlycoMute refund process',
   alternates: {
-    canonical: 'https://glycomute-order.com/refund-policy',
+    canonical: 'https://glycomutez.com/refund-policy',
   },
 };
 
