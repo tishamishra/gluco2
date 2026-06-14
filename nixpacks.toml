@@ -1,0 +1,6 @@
+# Dokploy/Nixpacks defaults to Node 18; Next.js 16 requires >=20.9.0
+[variables]
+NIXPACKS_NODE_VERSION = "20"
+
+[phases.setup]
+nixPkgs = ["nodejs_20"]
