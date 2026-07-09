@@ -62,6 +62,22 @@ export default function Footer() {
           </div>
         </div>
 
+        <div className="border-t border-gray-700 pt-8 pb-8 text-center">
+          <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-500 mb-2">As Featured On</h4>
+          <p className="text-sm text-gray-400">
+            GlycoMute is listed on{' '}
+            <a
+              href="https://www.affinsight.com/offers/glycomute-effective-blood-sugar-support"
+              target="_blank"
+              rel="noopener"
+              className="text-yellow-400 hover:text-yellow-500 underline"
+            >
+              Affinsight
+            </a>
+            {' '}— read the full offer breakdown and independent affiliate insights for GlycoMute blood sugar support.
+          </p>
+        </div>
+
         <div className="border-t border-gray-700 pt-8">
           <p className="text-sm text-gray-400 mb-4">
             <strong>FDA Compliance</strong><br />
